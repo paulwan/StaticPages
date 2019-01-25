@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "PingFang SC";
+  src: url("../fonts/ping_fang_sc_medium.woff") format("woff"), url("../fonts/ping_fang_sc_medium.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "PingFang SC";
+  src: url("../fonts/ping_fang_sc_regular.woff") format("woff"), url("../fonts/ping_fang_sc_regular.ttf") format("ttf");
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0; }
+
+.responsive-group,
+.artboard {
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  display: none; }
+
+svg * {
+  pointer-events: none; }
+
+.hotspot {
+  opacity: 0;
+  fill: transparent; }
+
+.interactive-area {
+  stroke: #3B99FC;
+  fill: #3B99FC;
+  fill-opacity: 0.5;
+  opacity: 0;
+  pointer-events: none; }
+
+.hotspot,
+.interactive {
+  cursor: pointer;
+  pointer-events: visible; }
+
+.interactive--quiet {
+  cursor: default; }
+
+.absorbs-events {
+  pointer-events: visible; }
+
+.hit-area,
+foreignObject.interactive > div {
+  pointer-events: visible; }
+
+.scrollable > *:not(g) {
+  pointer-events: visible; }
+
+.visible {
+  display: block; }
+
+foreignObject {
+  overflow: visible; }
+
+.html-text {
+  word-wrap: break-word; }
+
+.html-text-outer {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%; }
+  .html-text-outer > .html-text {
+    display: table-cell; }
+
+#prototype {
+  overflow: hidden; }
+
+.tab {
+  display: inline-block;
+  width: 29px; }
+
+ul {
+  padding-left: 26px; }
+  ul li {
+    padding-left: 10px; }
+
+ol {
+  padding-left: 22px; }
+  ol li {
+    padding-left: 14px; }
+
+p,
+ul,
+ol {
+  margin: 0; }
+
+#oLZpls-qSAe7pmmiO5rL6A { display: block; }
