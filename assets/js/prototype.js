@@ -1,6 +1,6 @@
 var settings = settings || {};
 settings.appType = AppType.WEB;
-settings.scalingType = ScalingType.UNIFORM;
+settings.scalingType = ScalingType.RESIZING_CONSTRAINTS;
 settings.homeId = "oLZpls-qSAe7pmmiO5rL6A";
 settings.deviceImage = {origin: {x: 55, y: 112}, screenSize: {width: 768, height: 1024}};
 settings.embeddedFonts = [
@@ -16,109 +16,109 @@ $(function() {
   var animationManager = AnimationManager.getInstance();
   var interactionManager = InteractionManager.getInstance();
 
-  // Tap: tab1 (ReportPage3) -> ReportPage1
+  // Tap: tab1 (ReportPage2) -> ReportPage1
   $("#vOkfBJPQT9qHIw3L2ouu5QUoefUl6sRVidj2qUH7Axvw").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "oLZpls-qSAe7pmmiO5rL6A");
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage3) -> ReportPage2
+  // Tap: tab2 (ReportPage2) -> ReportPage3
   $("#vOkfBJPQT9qHIw3L2ouu5QbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab4 (ReportPage3) -> ReportPage4
+  // Tap: tab4 (ReportPage2) -> ReportPage4
   $("#vOkfBJPQT9qHIw3L2ouu5QcTlIhuxJQsepq3ojfrAdEA").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "s06C3WTBQeyrHRr9eCgNKg");
     event.stopPropagation();
   });
 
-  // Tap: tab5 (ReportPage3) -> ReportPage5
+  // Tap: tab5 (ReportPage2) -> ReportPage5
   $("#vOkfBJPQT9qHIw3L2ouu5QShCXRzu8TQuJefOkeFez7g").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "a-UANUlKgSQeXzdRuFPUDHA");
     event.stopPropagation();
   });
 
-  // Tap: tab6 (ReportPage3) -> ReportPage6
+  // Tap: tab6 (ReportPage2) -> ReportPage6
   $("#vOkfBJPQT9qHIw3L2ouu5QGmn_QaFrRUmePs3qyWcRAA").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "DyZaX5EURteXQhRo6ECZEA");
     event.stopPropagation();
   });
 
-  // Tap: tab7 (ReportPage3) -> ReportPage7
+  // Tap: tab7 (ReportPage2) -> ReportPage7
   $("#vOkfBJPQT9qHIw3L2ouu5QhYR6DU0oT9C4gaLm8NhHcw").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "Ih4NEeUSTROm2DEV06IDmA");
     event.stopPropagation();
   });
 
-  // Tap: tab8 (ReportPage3) -> ReportPage8
+  // Tap: tab8 (ReportPage2) -> ReportPage8
   $("#vOkfBJPQT9qHIw3L2ouu5QsCOjSuOpRrG05pwArvJYDQ").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "a0T9PklJ2RW-ZSSEVBDw8rg");
     event.stopPropagation();
   });
 
-  // Tap: tab9 (ReportPage3) -> ReportPage9
+  // Tap: tab9 (ReportPage2) -> ReportPage9
   $("#vOkfBJPQT9qHIw3L2ouu5Q6zqL57VFTeKQ81hcdR81kg").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "a7t_wGR-pR1GByhyPWGb7Cw");
     event.stopPropagation();
   });
 
-  // Tap: tab10 (ReportPage3) -> ReportPage10
+  // Tap: tab10 (ReportPage2) -> ReportPage10
   $("#vOkfBJPQT9qHIw3L2ouu5Qu3JzF_pCRYu_tJqjDwc4ng").on("tapone", function(event) {
     screenTransition.instant("nvM6vltkQkmHoCnAOaylxQ", "a-ZMD_KA9Q8OkdP2eGR40Kw");
     event.stopPropagation();
   });
 
-  // Tap: tab1 (ReportPage2) -> ReportPage1
+  // Tap: tab1 (ReportPage3) -> ReportPage1
   $("#EMTRpm7SR6WcML5n3Mq45gUoefUl6sRVidj2qUH7Axvw").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "oLZpls-qSAe7pmmiO5rL6A");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage2) -> ReportPage3
+  // Tap: tab3 (ReportPage3) -> ReportPage2
   $("#EMTRpm7SR6WcML5n3Mq45gaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
   });
 
-  // Tap: tab4 (ReportPage2) -> ReportPage4
+  // Tap: tab4 (ReportPage3) -> ReportPage4
   $("#EMTRpm7SR6WcML5n3Mq45gcTlIhuxJQsepq3ojfrAdEA").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "s06C3WTBQeyrHRr9eCgNKg");
     event.stopPropagation();
   });
 
-  // Tap: tab5 (ReportPage2) -> ReportPage5
+  // Tap: tab5 (ReportPage3) -> ReportPage5
   $("#EMTRpm7SR6WcML5n3Mq45gShCXRzu8TQuJefOkeFez7g").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "a-UANUlKgSQeXzdRuFPUDHA");
     event.stopPropagation();
   });
 
-  // Tap: tab6 (ReportPage2) -> ReportPage6
+  // Tap: tab6 (ReportPage3) -> ReportPage6
   $("#EMTRpm7SR6WcML5n3Mq45gGmn_QaFrRUmePs3qyWcRAA").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "DyZaX5EURteXQhRo6ECZEA");
     event.stopPropagation();
   });
 
-  // Tap: tab7 (ReportPage2) -> ReportPage7
+  // Tap: tab7 (ReportPage3) -> ReportPage7
   $("#EMTRpm7SR6WcML5n3Mq45ghYR6DU0oT9C4gaLm8NhHcw").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "Ih4NEeUSTROm2DEV06IDmA");
     event.stopPropagation();
   });
 
-  // Tap: tab8 (ReportPage2) -> ReportPage8
+  // Tap: tab8 (ReportPage3) -> ReportPage8
   $("#EMTRpm7SR6WcML5n3Mq45gsCOjSuOpRrG05pwArvJYDQ").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "a0T9PklJ2RW-ZSSEVBDw8rg");
     event.stopPropagation();
   });
 
-  // Tap: tab9 (ReportPage2) -> ReportPage9
+  // Tap: tab9 (ReportPage3) -> ReportPage9
   $("#EMTRpm7SR6WcML5n3Mq45g6zqL57VFTeKQ81hcdR81kg").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "a7t_wGR-pR1GByhyPWGb7Cw");
     event.stopPropagation();
   });
 
-  // Tap: tab10 (ReportPage2) -> ReportPage10
+  // Tap: tab10 (ReportPage3) -> ReportPage10
   $("#EMTRpm7SR6WcML5n3Mq45gu3JzF_pCRYu_tJqjDwc4ng").on("tapone", function(event) {
     screenTransition.instant("JuNqbz6nTxuGDeopww2bBw", "a-ZMD_KA9Q8OkdP2eGR40Kw");
     event.stopPropagation();
@@ -130,13 +130,13 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage7) -> ReportPage2
+  // Tap: tab2 (ReportPage7) -> ReportPage3
   $("#a7QdvnMrCRS2RB9SXLhkJgwbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("Ih4NEeUSTROm2DEV06IDmA", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage7) -> ReportPage3
+  // Tap: tab3 (ReportPage7) -> ReportPage2
   $("#a7QdvnMrCRS2RB9SXLhkJgwaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("Ih4NEeUSTROm2DEV06IDmA", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
@@ -184,13 +184,13 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage9) -> ReportPage2
+  // Tap: tab2 (ReportPage9) -> ReportPage3
   $("#Dgbr526lTxyomWbp3JpktwbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("a7t_wGR-pR1GByhyPWGb7Cw", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage9) -> ReportPage3
+  // Tap: tab3 (ReportPage9) -> ReportPage2
   $("#Dgbr526lTxyomWbp3JpktwaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("a7t_wGR-pR1GByhyPWGb7Cw", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
@@ -238,13 +238,13 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage10) -> ReportPage2
+  // Tap: tab2 (ReportPage10) -> ReportPage3
   $("#a_MtzVNQ-THSPVd-A46vcYAbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("a-ZMD_KA9Q8OkdP2eGR40Kw", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage10) -> ReportPage3
+  // Tap: tab3 (ReportPage10) -> ReportPage2
   $("#a_MtzVNQ-THSPVd-A46vcYAaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("a-ZMD_KA9Q8OkdP2eGR40Kw", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
@@ -292,13 +292,13 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage5) -> ReportPage2
+  // Tap: tab2 (ReportPage5) -> ReportPage3
   $("#a53iuZfaeR5GQ5oDRQkcxUwbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("a-UANUlKgSQeXzdRuFPUDHA", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage5) -> ReportPage3
+  // Tap: tab3 (ReportPage5) -> ReportPage2
   $("#a53iuZfaeR5GQ5oDRQkcxUwaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("a-UANUlKgSQeXzdRuFPUDHA", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
@@ -340,13 +340,13 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage1) -> ReportPage2
+  // Tap: tab2 (ReportPage1) -> ReportPage3
   $("#uqEmXLF6Q4mfW6Gz80PMOwbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("oLZpls-qSAe7pmmiO5rL6A", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage1) -> ReportPage3
+  // Tap: tab3 (ReportPage1) -> ReportPage2
   $("#uqEmXLF6Q4mfW6Gz80PMOwaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("oLZpls-qSAe7pmmiO5rL6A", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
@@ -400,13 +400,13 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage8) -> ReportPage2
+  // Tap: tab2 (ReportPage8) -> ReportPage3
   $("#srbiFWR1RfyYs8_qhHSmCgbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("a0T9PklJ2RW-ZSSEVBDw8rg", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage8) -> ReportPage3
+  // Tap: tab3 (ReportPage8) -> ReportPage2
   $("#srbiFWR1RfyYs8_qhHSmCgaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("a0T9PklJ2RW-ZSSEVBDw8rg", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
@@ -454,13 +454,13 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage4) -> ReportPage2
+  // Tap: tab2 (ReportPage4) -> ReportPage3
   $("#XjTMeD-aQ2KLjy1OAYIojAbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("s06C3WTBQeyrHRr9eCgNKg", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage4) -> ReportPage3
+  // Tap: tab3 (ReportPage4) -> ReportPage2
   $("#XjTMeD-aQ2KLjy1OAYIojAaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("s06C3WTBQeyrHRr9eCgNKg", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
@@ -508,13 +508,13 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: tab2 (ReportPage6) -> ReportPage2
+  // Tap: tab2 (ReportPage6) -> ReportPage3
   $("#a9NDm_YI4QsmSej6hs-tqiAbWj87MrwT7u5HoxBCc1HUQ").on("tapone", function(event) {
     screenTransition.instant("DyZaX5EURteXQhRo6ECZEA", "JuNqbz6nTxuGDeopww2bBw");
     event.stopPropagation();
   });
 
-  // Tap: tab3 (ReportPage6) -> ReportPage3
+  // Tap: tab3 (ReportPage6) -> ReportPage2
   $("#a9NDm_YI4QsmSej6hs-tqiAaqeqXdEtSyO37o_tqQ0SAA").on("tapone", function(event) {
     screenTransition.instant("DyZaX5EURteXQhRo6ECZEA", "nvM6vltkQkmHoCnAOaylxQ");
     event.stopPropagation();
