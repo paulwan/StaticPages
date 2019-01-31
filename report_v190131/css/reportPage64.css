@@ -56,6 +56,640 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
+.reportpage64 .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 177px;
+  height              : 1782px;
+  width               : 984px;
+  position            : absolute;
+  margin              : 0;
+  left                : 147px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .contentbkgd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 1784px;
+  width               : 986px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .contentbkgd .bkgd {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 1784px;
+  box-sizing          : border-box;
+  width               : 986px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(220, 223, 230, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .btndefault {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 342px;
+  height              : 38px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 385px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .btndefault .btnbkgd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .btndefault .btnbkgd .bkgd {
+  background-color    : rgba(25, 137, 250, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 216px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .btndefault .span {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(228, 231, 237, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.reportpage64 .content .u6570u636eu672au83b7u53d6u5982u9700u67e5u770bu62a5u544au8bf7u70b9u201cu7533u8bf7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 304px;
+  height              : auto;
+  width               : 915px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(144, 147, 153, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.reportpage64 .content .find {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : 140px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 423px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 140px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 95px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 96px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 47px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 96px;
+  height              : 5px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 96px;
+  height              : 5px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 107px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .find .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 23px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .blocksub {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 46px;
+  width               : 936px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .blocksub .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 936px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .blocksub .titlebkgd {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 936px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .blocksub .u5b50u7248u5757u6807u9898 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(48, 49, 51, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.reportpage64 .content .tabsubstyle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : 38px;
+  width               : 914px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 914px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab1 .btnbkgd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab1 .btnbkgd .bkgd {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab1 .span {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(144, 147, 153, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.reportpage64 .content .tabsubstyle2 .tab1 .line {
+  background-color    : rgba(228, 231, 237, 1.0);
+  top                 : 37px;
+  height              : 1px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab2 .btnbkgd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab2 .btnbkgd .bkgd {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab2 .span {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(144, 147, 153, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.reportpage64 .content .tabsubstyle2 .tab2 .line {
+  background-color    : rgba(228, 231, 237, 1.0);
+  top                 : 37px;
+  height              : 1px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 457px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab3 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab3 .btnbkgd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab3 .btnbkgd .bkgd {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab3 .span {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(144, 147, 153, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.reportpage64 .content .tabsubstyle2 .tab3 .line {
+  background-color    : rgba(228, 231, 237, 1.0);
+  top                 : 37px;
+  height              : 1px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 686px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab4 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab4 .btnbkgd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab4 .btnbkgd .bkgd {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 229px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.reportpage64 .content .tabsubstyle2 .tab4 .span {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(25, 137, 250, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.reportpage64 .content .tabsubstyle2 .tab4 .bottomline {
+  background-color    : rgba(25, 137, 250, 1.0);
+  top                 : 36px;
+  height              : 3px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
 .reportpage64 .reportheader {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
@@ -181,7 +815,7 @@ div {
   text-align          : left;
   line-height         : 18.0px;
 }
-.reportpage64 .reportheader .personinfo .btndefault4 {
+.reportpage64 .reportheader .personinfo .btndefault3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -193,7 +827,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.reportpage64 .reportheader .personinfo .btndefault4 .bkgdr3 {
+.reportpage64 .reportheader .personinfo .btndefault3 .bkgdr3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
@@ -205,7 +839,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.reportpage64 .reportheader .personinfo .btndefault4 .bkgdr3 .bkgd1 {
+.reportpage64 .reportheader .personinfo .btndefault3 .bkgdr3 .bkgd1 {
   background-color    : rgba(253, 246, 235, 1.0);
   top                 : 0px;
   height              : 28px;
@@ -222,7 +856,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.reportpage64 .reportheader .personinfo .btndefault4 .span {
+.reportpage64 .reportheader .personinfo .btndefault3 .span {
   background-color    : rgba(255,255,255,0.0);
   top                 : 8px;
   height              : auto;
@@ -297,7 +931,7 @@ div {
   text-align          : center;
   line-height         : 12.0px;
 }
-.reportpage64 .reportheader .btndefault3 {
+.reportpage64 .reportheader .btndefault {
   background-color    : rgba(255,255,255,0.0);
   top                 : 35px;
   height              : 31px;
@@ -309,7 +943,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.reportpage64 .reportheader .btndefault3 .bkgdr3 {
+.reportpage64 .reportheader .btndefault .bkgdr3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 31px;
@@ -321,7 +955,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.reportpage64 .reportheader .btndefault3 .bkgdr3 .bkgd1 {
+.reportpage64 .reportheader .btndefault .bkgdr3 .bkgd1 {
   background-color    : rgba(245, 108, 108, 1.0);
   top                 : 0px;
   height              : 31px;
@@ -334,7 +968,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.reportpage64 .reportheader .btndefault3 .span {
+.reportpage64 .reportheader .btndefault .span {
   background-color    : rgba(255,255,255,0.0);
   top                 : 9px;
   height              : auto;
@@ -462,60 +1096,6 @@ div {
   color               : rgba(96, 98, 102, 1.0);
   text-align          : center;
   line-height         : 13.0px;
-}
-.reportpage64 .blocksub {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 209px;
-  height              : 46px;
-  width               : 936px;
-  position            : absolute;
-  margin              : 0;
-  left                : 171px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .blocksub .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 46px;
-  width               : 936px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .blocksub .titlebkgd {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 42px;
-  width               : 936px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .blocksub .u5b50u7248u5757u6807u9898 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "PingFangSC-Medium", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(48, 49, 51, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
 }
 .reportpage64 .tabgroup {
   background-color    : rgba(255,255,255,0.0);
@@ -1200,546 +1780,6 @@ div {
   color               : rgba(96, 98, 102, 1.0);
   text-align          : center;
   line-height         : 14.0px;
-}
-.reportpage64 .tabsubstyle2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 256px;
-  height              : 38px;
-  width               : 914px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 914px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab1 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab1 .btnbkgd {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab1 .btnbkgd .bkgd {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab1 .span {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : auto;
-  width               : 206px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(144, 147, 153, 1.0);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.reportpage64 .tabsubstyle2 .tab1 .line {
-  background-color    : rgba(228, 231, 237, 1.0);
-  top                 : 37px;
-  height              : 1px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 229px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab2 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab2 .btnbkgd {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab2 .btnbkgd .bkgd {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab2 .span {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : auto;
-  width               : 206px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(144, 147, 153, 1.0);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.reportpage64 .tabsubstyle2 .tab2 .line {
-  background-color    : rgba(228, 231, 237, 1.0);
-  top                 : 37px;
-  height              : 1px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 457px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab3 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab3 .btnbkgd {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab3 .btnbkgd .bkgd {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab3 .span {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : auto;
-  width               : 206px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(144, 147, 153, 1.0);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.reportpage64 .tabsubstyle2 .tab3 .line {
-  background-color    : rgba(228, 231, 237, 1.0);
-  top                 : 37px;
-  height              : 1px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 686px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab4 .background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab4 .btnbkgd {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab4 .btnbkgd .bkgd {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 229px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .tabsubstyle2 .tab4 .span {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : auto;
-  width               : 206px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(25, 137, 250, 1.0);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.reportpage64 .tabsubstyle2 .tab4 .bottomline {
-  background-color    : rgba(25, 137, 250, 1.0);
-  top                 : 36px;
-  height              : 3px;
-  width               : 229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .btndefault {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 519px;
-  height              : 38px;
-  width               : 216px;
-  position            : absolute;
-  margin              : 0;
-  left                : 532px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .btndefault .btnbkgd {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 216px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .btndefault .btnbkgd .bkgd {
-  background-color    : rgba(25, 137, 250, 1.0);
-  top                 : 0px;
-  height              : 38px;
-  width               : 216px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 4px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .btndefault .span {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 79px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(228, 231, 237, 1.0);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.reportpage64 .u6570u636eu672au83b7u53d6u5982u9700u67e5u770bu62a5u544au8bf7u70b9u201cu7533u8bf7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 481px;
-  height              : auto;
-  width               : 915px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(144, 147, 153, 1.0);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.reportpage64 .find {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 325px;
-  height              : 140px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 570px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 140px;
-  width               : 140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 23px;
-  height              : 95px;
-  width               : 81px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 96px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .path2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 86px;
-  height              : 21px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 97px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 43px;
-  height              : 47px;
-  width               : 47px;
-  position            : absolute;
-  margin              : 0;
-  left                : 54px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .path3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
-  height              : 5px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 52px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .path4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 96px;
-  height              : 5px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .path5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 96px;
-  height              : 5px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 52px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 107px;
-  width               : 93px;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.reportpage64 .find .path6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 55px;
-  height              : 23px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 66px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

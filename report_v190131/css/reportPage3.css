@@ -465,20 +465,20 @@ div {
 }
 .reportpage3 .content {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 210px;
+  top                 : 177px;
   height              : 10502px;
-  width               : 985px;
+  width               : 984px;
   position            : absolute;
   margin              : 0;
-  left                : 147px;
+  left                : 149px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
 .reportpage3 .content .contentbkgd {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 512px;
-  height              : 9961px;
+  top                 : -1px;
+  height              : 10504px;
   width               : 986px;
   position            : absolute;
   margin              : 0;
@@ -490,7 +490,7 @@ div {
 .reportpage3 .content .contentbkgd .bkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 9961px;
+  height              : 10504px;
   box-sizing          : border-box;
   width               : 986px;
   position            : relative;
@@ -505,9 +505,9 @@ div {
 }
 .reportpage3 .content .zixunyun {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10502px;
-  width               : 984px;
+  top                 : 31px;
+  height              : 10470px;
+  width               : 981px;
   position            : absolute;
   margin              : 0;
   left                : 1px;
