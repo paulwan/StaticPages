@@ -69,7 +69,7 @@ div {
   transform           : rotate(0deg);
 }
 .reportpage63 .reportheader .bkgd {
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100px;
   width               : 1013px;
@@ -470,7 +470,7 @@ div {
   width               : 984px;
   position            : absolute;
   margin              : 0;
-  left                : 149px;
+  left                : 148px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1154,7 +1154,7 @@ div {
   width               : 984px;
   position            : absolute;
   margin              : 0;
-  left                : 147px;
+  left                : 148px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1194,7 +1194,7 @@ div {
   width               : 917px;
   position            : absolute;
   margin              : 0;
-  left                : 36px;
+  left                : 35px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1580,7 +1580,7 @@ div {
   width               : 918px;
   position            : absolute;
   margin              : 0;
-  left                : 33px;
+  left                : 32px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -2051,7 +2051,7 @@ div {
   width               : 920px;
   position            : absolute;
   margin              : 0;
-  left                : 33px;
+  left                : 32px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -2537,7 +2537,7 @@ div {
   width               : 917px;
   position            : absolute;
   margin              : 0;
-  left                : 33px;
+  left                : 32px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -7868,7 +7868,7 @@ div {
   width               : 918px;
   position            : absolute;
   margin              : 0;
-  left                : 33px;
+  left                : 32px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -8654,7 +8654,7 @@ div {
   width               : 936px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 23px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
@@ -8708,7 +8708,7 @@ div {
   width               : 914px;
   position            : absolute;
   margin              : 0;
-  left                : 36px;
+  left                : 35px;
   overflow            : hidden;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
