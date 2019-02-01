@@ -776,7 +776,7 @@ div {
 }
 .usersettingoff .btnicongroupbothicon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 414px;
+  top                 : 262px;
   height              : 38px;
   width               : 240px;
   position            : absolute;
@@ -841,7 +841,7 @@ div {
 }
 .usersettingoff .btnicongroupbothicon1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 376px;
+  top                 : 224px;
   height              : 38px;
   width               : 240px;
   position            : absolute;
@@ -906,7 +906,7 @@ div {
 }
 .usersettingoff .menu5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 340px;
+  top                 : 186px;
   height              : 38px;
   width               : 240px;
   position            : absolute;
@@ -1080,7 +1080,7 @@ div {
 }
 .usersettingoff .menu4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 302px;
+  top                 : 414px;
   height              : 38px;
   width               : 240px;
   position            : absolute;
@@ -1254,7 +1254,7 @@ div {
 }
 .usersettingoff .menu3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 264px;
+  top                 : 376px;
   height              : 38px;
   width               : 240px;
   position            : absolute;
@@ -1428,7 +1428,7 @@ div {
 }
 .usersettingoff .menu2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 226px;
+  top                 : 338px;
   height              : 38px;
   width               : 240px;
   position            : absolute;
@@ -1602,7 +1602,7 @@ div {
 }
 .usersettingoff .menu1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 188px;
+  top                 : 300px;
   height              : 38px;
   width               : 240px;
   position            : absolute;
@@ -1826,8 +1826,8 @@ div {
 .usersettingoff .navbar .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 59px;
-  height              : 2px;
-  width               : 1220px;
+  height              : 1px;
+  width               : 1280px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
