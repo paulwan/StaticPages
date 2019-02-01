@@ -189,7 +189,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.admin2 .navbar .group {
+.admin2 .navbar .group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 32px;
@@ -201,7 +201,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .navbar .group .u60a8u597du7528u62377271109 {
+.admin2 .navbar .group1 .u60a8u597du7528u62377271109 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 9px;
   height              : auto;
@@ -218,7 +218,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.admin2 .navbar .group .solidusercircle {
+.admin2 .navbar .group1 .solidusercircle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 32px;
@@ -230,7 +230,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .navbar .group .solidusercircle .view1 {
+.admin2 .navbar .group1 .solidusercircle .view1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 32px;
@@ -242,7 +242,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .navbar .group .solidusercircle .solidusercircle1 {
+.admin2 .navbar .group1 .solidusercircle .solidusercircle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 31px;
@@ -254,19 +254,31 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext {
+.admin2 .group {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 216px;
-  height              : 44px;
-  width               : 301px;
+  top                 : 311px;
+  height              : 504px;
+  width               : 938px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : 300px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext .cellbkgd {
+.admin2 .group .celltrcelltext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 44px;
+  width               : 301px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .group .celltrcelltext .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -282,7 +294,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext .data {
+.admin2 .group .celltrcelltext .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -299,19 +311,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext1 {
+.admin2 .group .celltrcelltext1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 300px;
+  top                 : 83px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext1 .cellbkgd {
+.admin2 .group .celltrcelltext1 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -327,7 +339,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext1 .data {
+.admin2 .group .celltrcelltext1 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -344,19 +356,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext2 {
+.admin2 .group .celltrcelltext2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 258px;
+  top                 : 41px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext2 .cellbkgd {
+.admin2 .group .celltrcelltext2 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -372,7 +384,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext2 .data {
+.admin2 .group .celltrcelltext2 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -389,19 +401,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext3 {
+.admin2 .group .celltrcelltext3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 342px;
+  top                 : 125px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext3 .cellbkgd {
+.admin2 .group .celltrcelltext3 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -417,7 +429,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext3 .data {
+.admin2 .group .celltrcelltext3 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -434,19 +446,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext4 {
+.admin2 .group .celltrcelltext4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 216px;
+  top                 : -1px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext4 .cellbkgd {
+.admin2 .group .celltrcelltext4 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -462,7 +474,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext4 .data {
+.admin2 .group .celltrcelltext4 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -479,19 +491,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext5 {
+.admin2 .group .celltrcelltext5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 300px;
+  top                 : 83px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext5 .cellbkgd {
+.admin2 .group .celltrcelltext5 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -507,7 +519,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext5 .data {
+.admin2 .group .celltrcelltext5 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -524,19 +536,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext6 {
+.admin2 .group .celltrcelltext6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 258px;
+  top                 : 41px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext6 .cellbkgd {
+.admin2 .group .celltrcelltext6 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -552,7 +564,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext6 .data {
+.admin2 .group .celltrcelltext6 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -569,19 +581,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext7 {
+.admin2 .group .celltrcelltext7 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 342px;
+  top                 : 125px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext7 .cellbkgd {
+.admin2 .group .celltrcelltext7 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -597,7 +609,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext7 .data {
+.admin2 .group .celltrcelltext7 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -614,19 +626,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext8 {
+.admin2 .group .celltrcelltext8 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 216px;
+  top                 : -1px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext8 .cellbkgd {
+.admin2 .group .celltrcelltext8 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -642,7 +654,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext8 .data {
+.admin2 .group .celltrcelltext8 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -659,19 +671,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext9 {
+.admin2 .group .celltrcelltext9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 300px;
+  top                 : 83px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext9 .cellbkgd {
+.admin2 .group .celltrcelltext9 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -687,7 +699,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext9 .data {
+.admin2 .group .celltrcelltext9 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -704,19 +716,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext10 {
+.admin2 .group .celltrcelltext10 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 258px;
+  top                 : 41px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext10 .cellbkgd {
+.admin2 .group .celltrcelltext10 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -732,7 +744,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext10 .data {
+.admin2 .group .celltrcelltext10 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -749,19 +761,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext11 {
+.admin2 .group .celltrcelltext11 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 342px;
+  top                 : 125px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext11 .cellbkgd {
+.admin2 .group .celltrcelltext11 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -777,7 +789,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext11 .data {
+.admin2 .group .celltrcelltext11 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -794,19 +806,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext12 {
+.admin2 .group .celltrcelltext12 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 384px;
+  top                 : 167px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext12 .cellbkgd {
+.admin2 .group .celltrcelltext12 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -822,7 +834,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext12 .data {
+.admin2 .group .celltrcelltext12 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -839,19 +851,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext13 {
+.admin2 .group .celltrcelltext13 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 426px;
+  top                 : 209px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext13 .cellbkgd {
+.admin2 .group .celltrcelltext13 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -867,7 +879,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext13 .data {
+.admin2 .group .celltrcelltext13 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -884,19 +896,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext14 {
+.admin2 .group .celltrcelltext14 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 384px;
+  top                 : 167px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext14 .cellbkgd {
+.admin2 .group .celltrcelltext14 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -912,7 +924,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext14 .data {
+.admin2 .group .celltrcelltext14 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -929,19 +941,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext15 {
+.admin2 .group .celltrcelltext15 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 426px;
+  top                 : 209px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext15 .cellbkgd {
+.admin2 .group .celltrcelltext15 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -957,7 +969,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext15 .data {
+.admin2 .group .celltrcelltext15 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -974,19 +986,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext16 {
+.admin2 .group .celltrcelltext16 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 384px;
+  top                 : 167px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext16 .cellbkgd {
+.admin2 .group .celltrcelltext16 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1002,7 +1014,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext16 .data {
+.admin2 .group .celltrcelltext16 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1019,19 +1031,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext17 {
+.admin2 .group .celltrcelltext17 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 426px;
+  top                 : 209px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext17 .cellbkgd {
+.admin2 .group .celltrcelltext17 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1047,7 +1059,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext17 .data {
+.admin2 .group .celltrcelltext17 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1064,19 +1076,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext18 {
+.admin2 .group .celltrcelltext18 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 468px;
+  top                 : 251px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext18 .cellbkgd {
+.admin2 .group .celltrcelltext18 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1092,7 +1104,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext18 .data {
+.admin2 .group .celltrcelltext18 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1109,19 +1121,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext19 {
+.admin2 .group .celltrcelltext19 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 510px;
+  top                 : 293px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext19 .cellbkgd {
+.admin2 .group .celltrcelltext19 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1137,7 +1149,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext19 .data {
+.admin2 .group .celltrcelltext19 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1154,19 +1166,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext20 {
+.admin2 .group .celltrcelltext20 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 468px;
+  top                 : 251px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext20 .cellbkgd {
+.admin2 .group .celltrcelltext20 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1182,7 +1194,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext20 .data {
+.admin2 .group .celltrcelltext20 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1199,19 +1211,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext21 {
+.admin2 .group .celltrcelltext21 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 510px;
+  top                 : 293px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext21 .cellbkgd {
+.admin2 .group .celltrcelltext21 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1227,7 +1239,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext21 .data {
+.admin2 .group .celltrcelltext21 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1244,19 +1256,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext22 {
+.admin2 .group .celltrcelltext22 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 468px;
+  top                 : 251px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext22 .cellbkgd {
+.admin2 .group .celltrcelltext22 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1272,7 +1284,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext22 .data {
+.admin2 .group .celltrcelltext22 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1289,19 +1301,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext23 {
+.admin2 .group .celltrcelltext23 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 510px;
+  top                 : 293px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext23 .cellbkgd {
+.admin2 .group .celltrcelltext23 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1317,7 +1329,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext23 .data {
+.admin2 .group .celltrcelltext23 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1334,19 +1346,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext24 {
+.admin2 .group .celltrcelltext24 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 552px;
+  top                 : 335px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext24 .cellbkgd {
+.admin2 .group .celltrcelltext24 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1362,7 +1374,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext24 .data {
+.admin2 .group .celltrcelltext24 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1379,19 +1391,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext25 {
+.admin2 .group .celltrcelltext25 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 594px;
+  top                 : 377px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext25 .cellbkgd {
+.admin2 .group .celltrcelltext25 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1407,7 +1419,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext25 .data {
+.admin2 .group .celltrcelltext25 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1424,19 +1436,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext26 {
+.admin2 .group .celltrcelltext26 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 552px;
+  top                 : 335px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext26 .cellbkgd {
+.admin2 .group .celltrcelltext26 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1452,7 +1464,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext26 .data {
+.admin2 .group .celltrcelltext26 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1469,19 +1481,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext27 {
+.admin2 .group .celltrcelltext27 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 594px;
+  top                 : 377px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext27 .cellbkgd {
+.admin2 .group .celltrcelltext27 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1497,7 +1509,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext27 .data {
+.admin2 .group .celltrcelltext27 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1514,19 +1526,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext28 {
+.admin2 .group .celltrcelltext28 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 552px;
+  top                 : 335px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext28 .cellbkgd {
+.admin2 .group .celltrcelltext28 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1542,7 +1554,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext28 .data {
+.admin2 .group .celltrcelltext28 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1559,19 +1571,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext29 {
+.admin2 .group .celltrcelltext29 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 594px;
+  top                 : 377px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext29 .cellbkgd {
+.admin2 .group .celltrcelltext29 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1587,7 +1599,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext29 .data {
+.admin2 .group .celltrcelltext29 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1604,19 +1616,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext30 {
+.admin2 .group .celltrcelltext30 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 636px;
+  top                 : 419px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext30 .cellbkgd {
+.admin2 .group .celltrcelltext30 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1632,7 +1644,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext30 .data {
+.admin2 .group .celltrcelltext30 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1649,19 +1661,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext31 {
+.admin2 .group .celltrcelltext31 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 678px;
+  top                 : 461px;
   height              : 44px;
   width               : 301px;
   position            : absolute;
   margin              : 0;
-  left                : 299px;
+  left                : -1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext31 .cellbkgd {
+.admin2 .group .celltrcelltext31 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1677,7 +1689,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext31 .data {
+.admin2 .group .celltrcelltext31 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1694,19 +1706,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext32 {
+.admin2 .group .celltrcelltext32 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 636px;
+  top                 : 419px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext32 .cellbkgd {
+.admin2 .group .celltrcelltext32 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1722,7 +1734,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext32 .data {
+.admin2 .group .celltrcelltext32 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1739,19 +1751,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext33 {
+.admin2 .group .celltrcelltext33 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 678px;
+  top                 : 461px;
   height              : 44px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 598px;
+  left                : 298px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext33 .cellbkgd {
+.admin2 .group .celltrcelltext33 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1767,7 +1779,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext33 .data {
+.admin2 .group .celltrcelltext33 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1784,19 +1796,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext34 {
+.admin2 .group .celltrcelltext34 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 636px;
+  top                 : 419px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext34 .cellbkgd {
+.admin2 .group .celltrcelltext34 .cellbkgd {
   background-color    : rgba(244, 244, 245, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1812,7 +1824,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext34 .data {
+.admin2 .group .celltrcelltext34 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1829,19 +1841,19 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .celltrcelltext35 {
+.admin2 .group .celltrcelltext35 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 678px;
+  top                 : 461px;
   height              : 44px;
   width               : 323px;
   position            : absolute;
   margin              : 0;
-  left                : 916px;
+  left                : 616px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext35 .cellbkgd {
+.admin2 .group .celltrcelltext35 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1857,7 +1869,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .celltrcelltext35 .data {
+.admin2 .group .celltrcelltext35 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
@@ -1876,7 +1888,7 @@ div {
 }
 .admin2 .tableheader {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 175px;
+  top                 : 269px;
   height              : 42px;
   width               : 938px;
   position            : absolute;
@@ -1886,7 +1898,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .tableheader .celltrcelltext36 {
+.admin2 .tableheader .celltrcelltext {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 44px;
@@ -1898,7 +1910,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .tableheader .celltrcelltext36 .cellbkgd {
+.admin2 .tableheader .celltrcelltext .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1914,11 +1926,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .tableheader .celltrcelltext36 .data {
+.admin2 .tableheader .celltrcelltext .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
-  width               : 287px;
+  width               : 281px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
@@ -1931,7 +1943,68 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .tableheader .celltrcelltext110 {
+.admin2 .tableheader .celltrcelltext .iconsort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext .iconsort .iconsort1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext .iconsort .iconsort1 .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.admin2 .tableheader .celltrcelltext .iconsort .iconsort1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext .iconsort .iconsort1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 44px;
@@ -1943,7 +2016,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .tableheader .celltrcelltext110 .cellbkgd {
+.admin2 .tableheader .celltrcelltext1 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -1959,11 +2032,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .tableheader .celltrcelltext110 .data {
+.admin2 .tableheader .celltrcelltext1 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
-  width               : 306px;
+  width               : 300px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
@@ -1976,7 +2049,68 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
-.admin2 .tableheader .celltrcelltext210 {
+.admin2 .tableheader .celltrcelltext1 .iconsort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 301px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext1 .iconsort .iconsort1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext1 .iconsort .iconsort1 .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.admin2 .tableheader .celltrcelltext1 .iconsort .iconsort1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext1 .iconsort .iconsort1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 44px;
@@ -1988,7 +2122,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .tableheader .celltrcelltext210 .cellbkgd {
+.admin2 .tableheader .celltrcelltext2 .cellbkgd {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 44px;
@@ -2004,11 +2138,11 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .tableheader .celltrcelltext210 .data {
+.admin2 .tableheader .celltrcelltext2 .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
-  width               : 309px;
+  width               : 303px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
@@ -2021,9 +2155,70 @@ div {
   text-align          : left;
   line-height         : 20.0px;
 }
+.admin2 .tableheader .celltrcelltext2 .iconsort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 304px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext2 .iconsort .iconsort1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext2 .iconsort .iconsort1 .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.admin2 .tableheader .celltrcelltext2 .iconsort .iconsort1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .tableheader .celltrcelltext2 .iconsort .iconsort1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
 .admin2 .u6700u8fd130u5929u8bb0u5f5520180916 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 151px;
+  top                 : 245px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -2092,9 +2287,343 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
+.admin2 .searchsort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 179px;
+  height              : 40px;
+  width               : 930px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon .bkgdr4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 42px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon .bkgdr4 .bkgd {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 202px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(220, 223, 230, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon .u8bf7u8f93u5165u5185u5bb9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(192, 196, 204, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.admin2 .searchsort .inputbasicicon .iconsample1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon .iconsample1 .view1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon .iconsample1 .regularcalendaralt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon1 .bkgdr4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 42px;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon1 .bkgdr4 .bkgd {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 202px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(220, 223, 230, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon1 .u8bf7u8f93u5165u5185u5bb9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(192, 196, 204, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.admin2 .searchsort .inputbasicicon1 .iconsample1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 176px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon1 .iconsample1 .view1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .inputbasicicon1 .iconsample1 .solidcaretdown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .btndefault {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 758px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .btndefault .btnbkgd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .btndefault .btnbkgd .bkgd {
+  background-color    : rgba(25, 137, 250, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 78px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .btndefault .span {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(228, 231, 237, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.admin2 .searchsort .btndefault1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 852px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .btndefault1 .btnbkgd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .btndefault1 .btnbkgd .bkgd {
+  background-color    : rgba(144, 147, 153, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 78px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin2 .searchsort .btndefault1 .span {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "PingFangSC-Regular", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(228, 231, 237, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
 .admin2 .pagination {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 740px;
+  top                 : 834px;
   height              : 28px;
   width               : 500px;
   position            : absolute;
@@ -2459,7 +2988,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu6 .btnicongroupbothicon2 .group {
+.admin2 .menu6 .btnicongroupbothicon2 .group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 14px;
@@ -2471,7 +3000,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu6 .btnicongroupbothicon2 .group .menuname {
+.admin2 .menu6 .btnicongroupbothicon2 .group1 .menuname {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2488,7 +3017,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.admin2 .menu6 .btnicongroupbothicon2 .group .lefticon {
+.admin2 .menu6 .btnicongroupbothicon2 .group1 .lefticon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2501,7 +3030,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu6 .btnicongroupbothicon2 .group .lefticon .background {
+.admin2 .menu6 .btnicongroupbothicon2 .group1 .lefticon .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2513,7 +3042,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu6 .btnicongroupbothicon2 .group .lefticon .view1 {
+.admin2 .menu6 .btnicongroupbothicon2 .group1 .lefticon .view1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2525,7 +3054,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu6 .btnicongroupbothicon2 .group .lefticon .solidcog {
+.admin2 .menu6 .btnicongroupbothicon2 .group1 .lefticon .solidcog {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2763,7 +3292,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu5 .btnicongroupbothicon2 .group {
+.admin2 .menu5 .btnicongroupbothicon2 .group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 14px;
@@ -2775,7 +3304,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu5 .btnicongroupbothicon2 .group .menuname {
+.admin2 .menu5 .btnicongroupbothicon2 .group1 .menuname {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2792,7 +3321,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.admin2 .menu5 .btnicongroupbothicon2 .group .lefticon {
+.admin2 .menu5 .btnicongroupbothicon2 .group1 .lefticon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2805,7 +3334,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu5 .btnicongroupbothicon2 .group .lefticon .background {
+.admin2 .menu5 .btnicongroupbothicon2 .group1 .lefticon .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2817,7 +3346,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu5 .btnicongroupbothicon2 .group .lefticon .view1 {
+.admin2 .menu5 .btnicongroupbothicon2 .group1 .lefticon .view1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2829,7 +3358,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu5 .btnicongroupbothicon2 .group .lefticon .regularpaperplane {
+.admin2 .menu5 .btnicongroupbothicon2 .group1 .lefticon .regularpaperplane {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2950,7 +3479,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu4 .btnicongroupbothicon2 .group {
+.admin2 .menu4 .btnicongroupbothicon2 .group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 14px;
@@ -2962,7 +3491,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu4 .btnicongroupbothicon2 .group .menuname {
+.admin2 .menu4 .btnicongroupbothicon2 .group1 .menuname {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -2979,7 +3508,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.admin2 .menu4 .btnicongroupbothicon2 .group .lefticon {
+.admin2 .menu4 .btnicongroupbothicon2 .group1 .lefticon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -2991,7 +3520,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu4 .btnicongroupbothicon2 .group .lefticon .view1 {
+.admin2 .menu4 .btnicongroupbothicon2 .group1 .lefticon .view1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -3003,7 +3532,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu4 .btnicongroupbothicon2 .group .lefticon .solidbalancescale {
+.admin2 .menu4 .btnicongroupbothicon2 .group1 .lefticon .solidbalancescale {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 11px;
@@ -3124,7 +3653,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu3 .btnicongroupbothicon2 .group {
+.admin2 .menu3 .btnicongroupbothicon2 .group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 14px;
@@ -3136,7 +3665,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu3 .btnicongroupbothicon2 .group .menuname {
+.admin2 .menu3 .btnicongroupbothicon2 .group1 .menuname {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -3153,7 +3682,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.admin2 .menu3 .btnicongroupbothicon2 .group .lefticon {
+.admin2 .menu3 .btnicongroupbothicon2 .group1 .lefticon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -3165,7 +3694,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu3 .btnicongroupbothicon2 .group .lefticon .view1 {
+.admin2 .menu3 .btnicongroupbothicon2 .group1 .lefticon .view1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -3177,7 +3706,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu3 .btnicongroupbothicon2 .group .lefticon .regularcreditcard {
+.admin2 .menu3 .btnicongroupbothicon2 .group1 .lefticon .regularcreditcard {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 11px;
@@ -3298,7 +3827,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu2 .btnicongroupbothicon2 .group {
+.admin2 .menu2 .btnicongroupbothicon2 .group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 14px;
@@ -3310,7 +3839,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu2 .btnicongroupbothicon2 .group .menuname {
+.admin2 .menu2 .btnicongroupbothicon2 .group1 .menuname {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -3327,7 +3856,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.admin2 .menu2 .btnicongroupbothicon2 .group .lefticon {
+.admin2 .menu2 .btnicongroupbothicon2 .group1 .lefticon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -3339,7 +3868,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu2 .btnicongroupbothicon2 .group .lefticon .view1 {
+.admin2 .menu2 .btnicongroupbothicon2 .group1 .lefticon .view1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -3351,7 +3880,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu2 .btnicongroupbothicon2 .group .lefticon .solidbars {
+.admin2 .menu2 .btnicongroupbothicon2 .group1 .lefticon .solidbars {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 11px;
@@ -3472,7 +4001,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu1 .btnicongroupbothicon2 .group {
+.admin2 .menu1 .btnicongroupbothicon2 .group1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 14px;
@@ -3484,7 +4013,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu1 .btnicongroupbothicon2 .group .menuname {
+.admin2 .menu1 .btnicongroupbothicon2 .group1 .menuname {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -3501,7 +4030,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.admin2 .menu1 .btnicongroupbothicon2 .group .lefticon {
+.admin2 .menu1 .btnicongroupbothicon2 .group1 .lefticon {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -3513,7 +4042,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu1 .btnicongroupbothicon2 .group .lefticon .view1 {
+.admin2 .menu1 .btnicongroupbothicon2 .group1 .lefticon .view1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
@@ -3525,7 +4054,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.admin2 .menu1 .btnicongroupbothicon2 .group .lefticon .regularlistalt {
+.admin2 .menu1 .btnicongroupbothicon2 .group1 .lefticon .regularlistalt {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 12px;

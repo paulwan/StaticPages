@@ -7658,7 +7658,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
-  width               : 208px;
+  width               : 202px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
@@ -7670,6 +7670,67 @@ div {
   color               : rgba(48, 49, 51, 1.0);
   text-align          : left;
   line-height         : 20.0px;
+}
+.admin11 .tableheader1 .celltrcelltext72 .iconsort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext72 .iconsort .iconsort1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext72 .iconsort .iconsort1 .rectangle3 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.admin11 .tableheader1 .celltrcelltext72 .iconsort .iconsort1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext72 .iconsort .iconsort1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
 .admin11 .tableheader1 .celltrcelltext110 {
   background-color    : rgba(255,255,255,0.0);
@@ -7703,7 +7764,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
-  width               : 223px;
+  width               : 217px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
@@ -7715,6 +7776,67 @@ div {
   color               : rgba(48, 49, 51, 1.0);
   text-align          : left;
   line-height         : 20.0px;
+}
+.admin11 .tableheader1 .celltrcelltext110 .iconsort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext110 .iconsort .iconsort1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext110 .iconsort .iconsort1 .rectangle3 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.admin11 .tableheader1 .celltrcelltext110 .iconsort .iconsort1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext110 .iconsort .iconsort1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
 .admin11 .tableheader1 .celltrcelltext210 {
   background-color    : rgba(255,255,255,0.0);
@@ -7748,7 +7870,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
-  width               : 224px;
+  width               : 218px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
@@ -7760,6 +7882,67 @@ div {
   color               : rgba(48, 49, 51, 1.0);
   text-align          : left;
   line-height         : 20.0px;
+}
+.admin11 .tableheader1 .celltrcelltext210 .iconsort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext210 .iconsort .iconsort1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext210 .iconsort .iconsort1 .rectangle3 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.admin11 .tableheader1 .celltrcelltext210 .iconsort .iconsort1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext210 .iconsort .iconsort1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
 .admin11 .tableheader1 .celltrcelltext310 {
   background-color    : rgba(255,255,255,0.0);
@@ -7793,7 +7976,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : auto;
-  width               : 224px;
+  width               : 218px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
@@ -7805,6 +7988,67 @@ div {
   color               : rgba(48, 49, 51, 1.0);
   text-align          : left;
   line-height         : 20.0px;
+}
+.admin11 .tableheader1 .celltrcelltext310 .iconsort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext310 .iconsort .iconsort1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext310 .iconsort .iconsort1 .rectangle3 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.admin11 .tableheader1 .celltrcelltext310 .iconsort .iconsort1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.admin11 .tableheader1 .celltrcelltext310 .iconsort .iconsort1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
 }
 .admin11 .btndefault {
   background-color    : rgba(255,255,255,0.0);
