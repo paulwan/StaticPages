@@ -21,15 +21,27 @@ $(function() {
   var animationManager = AnimationManager.getInstance();
   var interactionManager = InteractionManager.getInstance();
 
+  // Tap: hotspot (B03我的账户@注册用户) -> P-G01-消息中心@空页
+  $("#QBvSoj1tTo2aPXsWzLzpPws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("x9OXSSDHR-O7KEuUFgX6wg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (B03我的账户@注册用户) -> StartUp
+  $("#QBvSoj1tTo2aPXsWzLzpPwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("x9OXSSDHR-O7KEuUFgX6wg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 2 (B03我的账户@注册用户) -> B02订单@注册用户
   $("#iQMJmrtfTZG6QgSf3Ds_Kw_q-FuLLKShOeGRMIgEw9rA").on("tapone", function(event) {
-    screenTransition.slideLeft("x9OXSSDHR-O7KEuUFgX6wg", "ml5BOIRYTZWuVq96lUzA3A");
+    screenTransition.instant("x9OXSSDHR-O7KEuUFgX6wg", "ml5BOIRYTZWuVq96lUzA3A");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (B03我的账户@注册用户) -> B01登录_Home@注册用户-none
   $("#iQMJmrtfTZG6QgSf3Ds_KwFXsKhPr9ShKMWd9_euw-Ow").on("tapone", function(event) {
-    screenTransition.slideRight("x9OXSSDHR-O7KEuUFgX6wg", "a7GvDAMq5SbSH7x9jMH_2EQ");
+    screenTransition.instant("x9OXSSDHR-O7KEuUFgX6wg", "a7GvDAMq5SbSH7x9jMH_2EQ");
     event.stopPropagation();
   });
 
@@ -69,15 +81,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (C03我的账户@注册用户) -> P-G01-消息中心@空页
+  $("#a_XGFMPctTYO26Nd7D1WEQws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("Almvivx2SFy8l5dWmlKUZw", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (C03我的账户@注册用户) -> StartUp
+  $("#a_XGFMPctTYO26Nd7D1WEQwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("Almvivx2SFy8l5dWmlKUZw", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 2 (C03我的账户@注册用户) -> C02订单@注册用户
   $("#a_XCgbYAkTTanbO4DA9tmAgPbjN3JY3TvmAZNOnU--CsQ").on("tapone", function(event) {
-    screenTransition.slideLeft("Almvivx2SFy8l5dWmlKUZw", "a4pPu8H6JRHugH4Wv1_i93A");
+    screenTransition.instant("Almvivx2SFy8l5dWmlKUZw", "a4pPu8H6JRHugH4Wv1_i93A");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (C03我的账户@注册用户) -> C01登录_@注册用户-认证未完成
   $("#a_XCgbYAkTTanbO4DA9tmAgGUiyTwQgTB-Hpd7L6ouP0w").on("tapone", function(event) {
-    screenTransition.slideRight("Almvivx2SFy8l5dWmlKUZw", "iulX1mmZRYG_ioIT_qiTcA");
+    screenTransition.instant("Almvivx2SFy8l5dWmlKUZw", "iulX1mmZRYG_ioIT_qiTcA");
     event.stopPropagation();
   });
 
@@ -117,15 +141,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (E01登录@注册+认证用户-审核通过) -> P-G01-消息中心@空页
+  $("#vElv6qqVSTyS0xlSBHdXPQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("dgUyIBSLQlWffV2FS8qNOg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (E01登录@注册+认证用户-审核通过) -> StartUp
+  $("#vElv6qqVSTyS0xlSBHdXPQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("dgUyIBSLQlWffV2FS8qNOg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (E01登录@注册+认证用户-审核通过) -> E03我的账户@注册用户
   $("#vocoapRQRz-6uDWeh6J4qQKHbr9Tg6SK-Ras1xQa4YLA").on("tapone", function(event) {
-    screenTransition.slideLeft("dgUyIBSLQlWffV2FS8qNOg", "VN8W6Zy7QMuTulMDVIj7Fg");
+    screenTransition.instant("dgUyIBSLQlWffV2FS8qNOg", "VN8W6Zy7QMuTulMDVIj7Fg");
     event.stopPropagation();
   });
 
   // Tap: TAB 2 (E01登录@注册+认证用户-审核通过) -> E02订单@注册用户
   $("#vocoapRQRz-6uDWeh6J4qQXQn4Q35SSC2H5bO1FqKZ2g").on("tapone", function(event) {
-    screenTransition.slideLeft("dgUyIBSLQlWffV2FS8qNOg", "hO_EOdcETrO9bnKkkdKLrw");
+    screenTransition.instant("dgUyIBSLQlWffV2FS8qNOg", "hO_EOdcETrO9bnKkkdKLrw");
     event.stopPropagation();
   });
 
@@ -153,15 +189,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (A03我的账户@游客) -> P-G01-消息中心@空页
+  $("#uKHTfnHjSjy69J6BMDFjcAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("QuWTup8VQhOy3JkaTTpUtg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (A03我的账户@游客) -> StartUp
+  $("#uKHTfnHjSjy69J6BMDFjcAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("QuWTup8VQhOy3JkaTTpUtg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 2 (A03我的账户@游客) -> A02订单@新用户
   $("#EL_I6wdTTDW0Jj03lm-e9g6_jquNuiTCyFG1RWAloA7g").on("tapone", function(event) {
-    screenTransition.slideLeft("QuWTup8VQhOy3JkaTTpUtg", "Uy_MauouTSSMt8_bgm6DnQ");
+    screenTransition.instant("QuWTup8VQhOy3JkaTTpUtg", "Uy_MauouTSSMt8_bgm6DnQ");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (A03我的账户@游客) -> A01登录_Home@新用户-none
   $("#EL_I6wdTTDW0Jj03lm-e9g0hd-KL68QJSdPKGD2Q1dUg").on("tapone", function(event) {
-    screenTransition.slideRight("QuWTup8VQhOy3JkaTTpUtg", "F2LTMLcFT5aVOa41tiRfjQ");
+    screenTransition.instant("QuWTup8VQhOy3JkaTTpUtg", "F2LTMLcFT5aVOa41tiRfjQ");
     event.stopPropagation();
   });
 
@@ -213,15 +261,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (C01登录_@注册用户-认证未完成) -> P-G01-消息中心@空页
+  $("#Y-6-x_GQSlW1GQhExpONFws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("iulX1mmZRYG_ioIT_qiTcA", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (C01登录_@注册用户-认证未完成) -> StartUp
+  $("#Y-6-x_GQSlW1GQhExpONFwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("iulX1mmZRYG_ioIT_qiTcA", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (C01登录_@注册用户-认证未完成) -> C03我的账户@注册用户
   $("#CzuBWuD7Q1miUZnBYESc6gsohdh5gVRyuiy7oghiBc9A").on("tapone", function(event) {
-    screenTransition.slideLeft("iulX1mmZRYG_ioIT_qiTcA", "Almvivx2SFy8l5dWmlKUZw");
+    screenTransition.instant("iulX1mmZRYG_ioIT_qiTcA", "Almvivx2SFy8l5dWmlKUZw");
     event.stopPropagation();
   });
 
   // Tap: TAB 2 (C01登录_@注册用户-认证未完成) -> C02订单@注册用户
   $("#CzuBWuD7Q1miUZnBYESc6gPbjN3JY3TvmAZNOnU--CsQ").on("tapone", function(event) {
-    screenTransition.slideLeft("iulX1mmZRYG_ioIT_qiTcA", "a4pPu8H6JRHugH4Wv1_i93A");
+    screenTransition.instant("iulX1mmZRYG_ioIT_qiTcA", "a4pPu8H6JRHugH4Wv1_i93A");
     event.stopPropagation();
   });
 
@@ -249,21 +309,45 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-H01-用户协议) -> P-G01-消息中心@空页
+  $("#UwLvigZAR-SaNKW_zEF8DAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("euwkT_pnRFyaoJOikGidyA", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-H01-用户协议) -> StartUp
+  $("#UwLvigZAR-SaNKW_zEF8DAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("euwkT_pnRFyaoJOikGidyA", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-H01-用户协议) -> Previous screen
   $("#UwLvigZAR-SaNKW_zEF8DAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
+  // Tap: hotspot (A02订单@新用户) -> P-G01-消息中心@空页
+  $("#Z6Ue5ZmQT0CX2Sv10yHebQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("Uy_MauouTSSMt8_bgm6DnQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (A02订单@新用户) -> StartUp
+  $("#Z6Ue5ZmQT0CX2Sv10yHebQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("Uy_MauouTSSMt8_bgm6DnQ", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (A02订单@新用户) -> A03我的账户@游客
   $("#AOOk-unaQACi2m574ruAvAisz0HySFRcW6OYq0b2Dkgw").on("tapone", function(event) {
-    screenTransition.slideLeft("Uy_MauouTSSMt8_bgm6DnQ", "QuWTup8VQhOy3JkaTTpUtg");
+    screenTransition.instant("Uy_MauouTSSMt8_bgm6DnQ", "QuWTup8VQhOy3JkaTTpUtg");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (A02订单@新用户) -> A01登录_Home@新用户-none
   $("#AOOk-unaQACi2m574ruAvA0hd-KL68QJSdPKGD2Q1dUg").on("tapone", function(event) {
-    screenTransition.slideRight("Uy_MauouTSSMt8_bgm6DnQ", "F2LTMLcFT5aVOa41tiRfjQ");
+    screenTransition.instant("Uy_MauouTSSMt8_bgm6DnQ", "F2LTMLcFT5aVOa41tiRfjQ");
     event.stopPropagation();
   });
 
@@ -279,21 +363,45 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-A03-还款记录@空页) -> P-G01-消息中心@空页
+  $("#ekQkZwiDTQ-DvRBy-hQkrAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("WiJ82FgRRvyQBxmul-pM7Q", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-A03-还款记录@空页) -> StartUp
+  $("#ekQkZwiDTQ-DvRBy-hQkrAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("WiJ82FgRRvyQBxmul-pM7Q", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-A03-还款记录@空页) -> Previous screen
   $("#ekQkZwiDTQ-DvRBy-hQkrAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
+  // Tap: hotspot (C02订单@注册用户) -> P-G01-消息中心@空页
+  $("#rdKWfJSeR2Gfd21DShRdHgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("a4pPu8H6JRHugH4Wv1_i93A", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (C02订单@注册用户) -> StartUp
+  $("#rdKWfJSeR2Gfd21DShRdHgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("a4pPu8H6JRHugH4Wv1_i93A", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (C02订单@注册用户) -> C03我的账户@注册用户
   $("#ObVY6YTvR7KBHlG7PVDAAgsohdh5gVRyuiy7oghiBc9A").on("tapone", function(event) {
-    screenTransition.slideLeft("a4pPu8H6JRHugH4Wv1_i93A", "Almvivx2SFy8l5dWmlKUZw");
+    screenTransition.instant("a4pPu8H6JRHugH4Wv1_i93A", "Almvivx2SFy8l5dWmlKUZw");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (C02订单@注册用户) -> C01登录_@注册用户-认证未完成
   $("#ObVY6YTvR7KBHlG7PVDAAgGUiyTwQgTB-Hpd7L6ouP0w").on("tapone", function(event) {
-    screenTransition.slideRight("a4pPu8H6JRHugH4Wv1_i93A", "iulX1mmZRYG_ioIT_qiTcA");
+    screenTransition.instant("a4pPu8H6JRHugH4Wv1_i93A", "iulX1mmZRYG_ioIT_qiTcA");
     event.stopPropagation();
   });
 
@@ -303,15 +411,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (D01登录@注册认证用户-审核中_Checking) -> P-G01-消息中心@空页
+  $("#S6uBBksQRlyhfG_0kavQIAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("a0JqWSPHfTeOkOKxGnHwMog", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (D01登录@注册认证用户-审核中_Checking) -> StartUp
+  $("#S6uBBksQRlyhfG_0kavQIAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("a0JqWSPHfTeOkOKxGnHwMog", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (D01登录@注册认证用户-审核中_Checking) -> D03我的账户@注册用户
   $("#qyRd9bPXSdmGmaiCKj6DJQOu_1qlACQ4qvmR_9jWsIIQ").on("tapone", function(event) {
-    screenTransition.slideLeft("a0JqWSPHfTeOkOKxGnHwMog", "G61atJxbTyGXPEWuV94rJw");
+    screenTransition.instant("a0JqWSPHfTeOkOKxGnHwMog", "G61atJxbTyGXPEWuV94rJw");
     event.stopPropagation();
   });
 
   // Tap: TAB 2 (D01登录@注册认证用户-审核中_Checking) -> D02订单@注册用户
   $("#qyRd9bPXSdmGmaiCKj6DJQaYR8PovRT7OCaD-dwK_hXA").on("tapone", function(event) {
-    screenTransition.slideLeft("a0JqWSPHfTeOkOKxGnHwMog", "IwEgtisHSIS5nbbkeoQ1ZQ");
+    screenTransition.instant("a0JqWSPHfTeOkOKxGnHwMog", "IwEgtisHSIS5nbbkeoQ1ZQ");
     event.stopPropagation();
   });
 
@@ -327,15 +447,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (B02订单@注册用户) -> P-G01-消息中心@空页
+  $("#zbayfHuSSUOXKA6R15IVdgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("ml5BOIRYTZWuVq96lUzA3A", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (B02订单@注册用户) -> StartUp
+  $("#zbayfHuSSUOXKA6R15IVdgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("ml5BOIRYTZWuVq96lUzA3A", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (B02订单@注册用户) -> B03我的账户@注册用户
   $("#z60NhDq5QtiMSR4ysiqPuAXHFmmQozTWSf5B_-5X_mPg").on("tapone", function(event) {
-    screenTransition.slideLeft("ml5BOIRYTZWuVq96lUzA3A", "x9OXSSDHR-O7KEuUFgX6wg");
+    screenTransition.instant("ml5BOIRYTZWuVq96lUzA3A", "x9OXSSDHR-O7KEuUFgX6wg");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (B02订单@注册用户) -> B01登录_Home@注册用户-none
   $("#z60NhDq5QtiMSR4ysiqPuAFXsKhPr9ShKMWd9_euw-Ow").on("tapone", function(event) {
-    screenTransition.slideRight("ml5BOIRYTZWuVq96lUzA3A", "a7GvDAMq5SbSH7x9jMH_2EQ");
+    screenTransition.instant("ml5BOIRYTZWuVq96lUzA3A", "a7GvDAMq5SbSH7x9jMH_2EQ");
     event.stopPropagation();
   });
 
@@ -369,6 +501,30 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (F01登录_Home@注册用户) -> P-G01-消息中心@空页
+  $("#IqmeTu2VQ9iPPoGPFZOagQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("YMZFY2QgQJWYh8H2lqPXPA", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (F01登录_Home@注册用户) -> StartUp
+  $("#IqmeTu2VQ9iPPoGPFZOagQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("YMZFY2QgQJWYh8H2lqPXPA", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (F01登录_Home@注册用户) -> P-G02-消息中心@data
+  $("#RdmrXDkNQ02wQZNtWSXI3gs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("YMZFY2QgQJWYh8H2lqPXPA", "YXHSqPQIRm6iJgdzll5wPg");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (F01登录_Home@注册用户) -> StartUp
+  $("#RdmrXDkNQ02wQZNtWSXI3gzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("YMZFY2QgQJWYh8H2lqPXPA", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: NavBar (F01登录_Home@注册用户) -> P-G02-消息中心@data
   $("#RdmrXDkNQ02wQZNtWSXI3g").on("tapone", function(event) {
     screenTransition.instant("YMZFY2QgQJWYh8H2lqPXPA", "YXHSqPQIRm6iJgdzll5wPg");
@@ -383,13 +539,13 @@ $(function() {
 
   // Tap: TAB 3 (F01登录_Home@注册用户) -> F03我的账户@注册用户
   $("#hdok4IM7RJG2BR40G_jt4AAd5nZ90QR_CJMqzr9Infug").on("tapone", function(event) {
-    screenTransition.slideLeft("YMZFY2QgQJWYh8H2lqPXPA", "JHWpAYsQQC6gJzeqgL6ByQ");
+    screenTransition.instant("YMZFY2QgQJWYh8H2lqPXPA", "JHWpAYsQQC6gJzeqgL6ByQ");
     event.stopPropagation();
   });
 
   // Tap: TAB 2 (F01登录_Home@注册用户) -> F02订单@注册用户
   $("#hdok4IM7RJG2BR40G_jt4AbSliEjSdSBCN8ZjbGAjwag").on("tapone", function(event) {
-    screenTransition.slideLeft("YMZFY2QgQJWYh8H2lqPXPA", "Q4KZTjttTG-4woeMbtAG8w");
+    screenTransition.instant("YMZFY2QgQJWYh8H2lqPXPA", "Q4KZTjttTG-4woeMbtAG8w");
     event.stopPropagation();
   });
 
@@ -423,15 +579,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (A01登录_Home@新用户-none) -> P-G01-消息中心@空页
+  $("#EOgzIqdCRjOWSH10QBZ6vgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("F2LTMLcFT5aVOa41tiRfjQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (A01登录_Home@新用户-none) -> StartUp
+  $("#EOgzIqdCRjOWSH10QBZ6vgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("F2LTMLcFT5aVOa41tiRfjQ", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (A01登录_Home@新用户-none) -> A03我的账户@游客
   $("#a9Vy29ueMT9-bVP9qy0z90gisz0HySFRcW6OYq0b2Dkgw").on("tapone", function(event) {
-    screenTransition.slideLeft("F2LTMLcFT5aVOa41tiRfjQ", "QuWTup8VQhOy3JkaTTpUtg");
+    screenTransition.instant("F2LTMLcFT5aVOa41tiRfjQ", "QuWTup8VQhOy3JkaTTpUtg");
     event.stopPropagation();
   });
 
   // Tap: TAB 2 (A01登录_Home@新用户-none) -> A02订单@新用户
   $("#a9Vy29ueMT9-bVP9qy0z90g6_jquNuiTCyFG1RWAloA7g").on("tapone", function(event) {
-    screenTransition.slideLeft("F2LTMLcFT5aVOa41tiRfjQ", "Uy_MauouTSSMt8_bgm6DnQ");
+    screenTransition.instant("F2LTMLcFT5aVOa41tiRfjQ", "Uy_MauouTSSMt8_bgm6DnQ");
     event.stopPropagation();
   });
 
@@ -471,15 +639,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (D03我的账户@注册用户) -> P-G01-消息中心@空页
+  $("#Q__4YZLPSGKOBcWsFyMg4ws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("G61atJxbTyGXPEWuV94rJw", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (D03我的账户@注册用户) -> StartUp
+  $("#Q__4YZLPSGKOBcWsFyMg4wzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("G61atJxbTyGXPEWuV94rJw", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 2 (D03我的账户@注册用户) -> D02订单@注册用户
   $("#iOz-np5ARVGuWlhuPjgerwaYR8PovRT7OCaD-dwK_hXA").on("tapone", function(event) {
-    screenTransition.slideLeft("G61atJxbTyGXPEWuV94rJw", "IwEgtisHSIS5nbbkeoQ1ZQ");
+    screenTransition.instant("G61atJxbTyGXPEWuV94rJw", "IwEgtisHSIS5nbbkeoQ1ZQ");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (D03我的账户@注册用户) -> D01登录@注册认证用户-审核中_Checking
   $("#iOz-np5ARVGuWlhuPjgerwHLwuC8CkQOOF60UlrSW2oA").on("tapone", function(event) {
-    screenTransition.slideRight("G61atJxbTyGXPEWuV94rJw", "a0JqWSPHfTeOkOKxGnHwMog");
+    screenTransition.instant("G61atJxbTyGXPEWuV94rJw", "a0JqWSPHfTeOkOKxGnHwMog");
     event.stopPropagation();
   });
 
@@ -519,15 +699,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (E03我的账户@注册用户) -> P-G01-消息中心@空页
+  $("#b1djAU2_Tiy23jv8ShcYAgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("VN8W6Zy7QMuTulMDVIj7Fg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (E03我的账户@注册用户) -> StartUp
+  $("#b1djAU2_Tiy23jv8ShcYAgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("VN8W6Zy7QMuTulMDVIj7Fg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 2 (E03我的账户@注册用户) -> E02订单@注册用户
   $("#a9DbfYjW5QWSVJ88m8JMyPgXQn4Q35SSC2H5bO1FqKZ2g").on("tapone", function(event) {
-    screenTransition.slideLeft("VN8W6Zy7QMuTulMDVIj7Fg", "hO_EOdcETrO9bnKkkdKLrw");
+    screenTransition.instant("VN8W6Zy7QMuTulMDVIj7Fg", "hO_EOdcETrO9bnKkkdKLrw");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (E03我的账户@注册用户) -> E01登录@注册+认证用户-审核通过
   $("#a9DbfYjW5QWSVJ88m8JMyPgDtfjovmEQZWuZgGEiG3qog").on("tapone", function(event) {
-    screenTransition.slideRight("VN8W6Zy7QMuTulMDVIj7Fg", "dgUyIBSLQlWffV2FS8qNOg");
+    screenTransition.instant("VN8W6Zy7QMuTulMDVIj7Fg", "dgUyIBSLQlWffV2FS8qNOg");
     event.stopPropagation();
   });
 
@@ -567,15 +759,27 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (F03我的账户@注册用户) -> P-G01-消息中心@空页
+  $("#UQfl2R9mSjOgSJtf9vqKIws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("JHWpAYsQQC6gJzeqgL6ByQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (F03我的账户@注册用户) -> StartUp
+  $("#UQfl2R9mSjOgSJtf9vqKIwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("JHWpAYsQQC6gJzeqgL6ByQ", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 2 (F03我的账户@注册用户) -> F02订单@注册用户
   $("#IEXcjXygSKGv0lo4xee8zQbSliEjSdSBCN8ZjbGAjwag").on("tapone", function(event) {
-    screenTransition.slideLeft("JHWpAYsQQC6gJzeqgL6ByQ", "Q4KZTjttTG-4woeMbtAG8w");
+    screenTransition.instant("JHWpAYsQQC6gJzeqgL6ByQ", "Q4KZTjttTG-4woeMbtAG8w");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (F03我的账户@注册用户) -> F01登录_Home@注册用户
   $("#IEXcjXygSKGv0lo4xee8zQCouXwM8jS3eeEpaMxffZmA").on("tapone", function(event) {
-    screenTransition.slideRight("JHWpAYsQQC6gJzeqgL6ByQ", "YMZFY2QgQJWYh8H2lqPXPA");
+    screenTransition.instant("JHWpAYsQQC6gJzeqgL6ByQ", "YMZFY2QgQJWYh8H2lqPXPA");
     event.stopPropagation();
   });
 
@@ -615,15 +819,51 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-D02-还款信息@data) -> P-G01-消息中心@空页
+  $("#kyLsCXMiTVmkgxhikroyhws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("a1Ta66ckR5SX134d24FkDw", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-D02-还款信息@data) -> StartUp
+  $("#kyLsCXMiTVmkgxhikroyhwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("a1Ta66ckR5SX134d24FkDw", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-D02-还款信息@data) -> Previous screen
   $("#kyLsCXMiTVmkgxhikroyhwnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-F01-帮助与反馈) -> P-G01-消息中心@空页
+  $("#QKZEXkgXRIKbjp_-zlhWygs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("RUzgylu2TCSDFvA1e8U7TA", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-F01-帮助与反馈) -> StartUp
+  $("#QKZEXkgXRIKbjp_-zlhWygzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("RUzgylu2TCSDFvA1e8U7TA", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-F01-帮助与反馈) -> Previous screen
   $("#QKZEXkgXRIKbjp_-zlhWygnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowC1-绑定银行卡) -> P-G01-消息中心@空页
+  $("#a3-PaFcdZSYGeneCFeRvpVAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("Pe5-xSGLTmiAGcf6_TPa6w", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowC1-绑定银行卡) -> StartUp
+  $("#a3-PaFcdZSYGeneCFeRvpVAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("Pe5-xSGLTmiAGcf6_TPa6w", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
@@ -648,6 +888,18 @@ $(function() {
   // Tap: Btn.a Basic/Meduim/ Regular  (FlowC1-绑定银行卡) -> FlowC3-绑定银行卡-成功
   $("#a0tLGxww-SGyr_x0fzpGvxA").on("tapone-iscroll", function(event) {
     screenTransition.instant("Pe5-xSGLTmiAGcf6_TPa6w", "a4R6L8QdTTUWgvhp2afVY5Q");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-A01-还款@空页) -> P-G01-消息中心@空页
+  $("#t2uH5ru7Rlylp7nB-856AAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("x6HEDs73QDC-3SL7x03KuQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-A01-还款@空页) -> StartUp
+  $("#t2uH5ru7Rlylp7nB-856AAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("x6HEDs73QDC-3SL7x03KuQ", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
@@ -681,21 +933,45 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (E02订单@注册用户) -> P-G01-消息中心@空页
+  $("#M_-4zTEDTtiim0QczEOJHQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("hO_EOdcETrO9bnKkkdKLrw", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (E02订单@注册用户) -> StartUp
+  $("#M_-4zTEDTtiim0QczEOJHQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("hO_EOdcETrO9bnKkkdKLrw", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (E02订单@注册用户) -> E03我的账户@注册用户
   $("#nM1ksJLHTMieHs5SgeNLPAKHbr9Tg6SK-Ras1xQa4YLA").on("tapone", function(event) {
-    screenTransition.slideLeft("hO_EOdcETrO9bnKkkdKLrw", "VN8W6Zy7QMuTulMDVIj7Fg");
+    screenTransition.instant("hO_EOdcETrO9bnKkkdKLrw", "VN8W6Zy7QMuTulMDVIj7Fg");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (E02订单@注册用户) -> E01登录@注册+认证用户-审核通过
   $("#nM1ksJLHTMieHs5SgeNLPADtfjovmEQZWuZgGEiG3qog").on("tapone", function(event) {
-    screenTransition.slideRight("hO_EOdcETrO9bnKkkdKLrw", "dgUyIBSLQlWffV2FS8qNOg");
+    screenTransition.instant("hO_EOdcETrO9bnKkkdKLrw", "dgUyIBSLQlWffV2FS8qNOg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (E02订单@注册用户) -> Previous screen
   $("#M_-4zTEDTtiim0QczEOJHQnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-B02-我的银行卡@data) -> P-G01-消息中心@空页
+  $("#EuWRUCG4RumDf1qeAP8UQQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("rtSy8sQFS4ygxyZSYfObzw", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-B02-我的银行卡@data) -> StartUp
+  $("#EuWRUCG4RumDf1qeAP8UQQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("rtSy8sQFS4ygxyZSYfObzw", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
@@ -711,6 +987,18 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-B01-我的银行卡@空页) -> P-G01-消息中心@空页
+  $("#SpX3xbaVRWa6bma9-hoN5ws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("F-jhzxk1RT6Vgkema_IGUg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-B01-我的银行卡@空页) -> StartUp
+  $("#SpX3xbaVRWa6bma9-hoN5wzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("F-jhzxk1RT6Vgkema_IGUg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-B01-我的银行卡@空页) -> Previous screen
   $("#SpX3xbaVRWa6bma9-hoN5wnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
@@ -720,6 +1008,18 @@ $(function() {
   // Tap: Btn.a Basic/Meduim/ Regular  (P-B01-我的银行卡@空页) -> FlowC1-绑定银行卡
   $("#lmLyE8M3Rie6U37ao3CRjQ").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("F-jhzxk1RT6Vgkema_IGUg", "Pe5-xSGLTmiAGcf6_TPa6w");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowB3-认证流程认证完成) -> P-G01-消息中心@空页
+  $("#a4_jgEjYSSJOp1dGy46U4OQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("DIGdzYCGSTaeT8bI6o1uNw", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowB3-认证流程认证完成) -> StartUp
+  $("#a4_jgEjYSSJOp1dGy46U4OQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("DIGdzYCGSTaeT8bI6o1uNw", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
@@ -735,6 +1035,18 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (FlowB2-认证流程身份认证) -> P-G01-消息中心@空页
+  $("#KhcxjUssTSGCHZd8_0D0Pws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("UzuLZZjORqSBH23Wol87nQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowB2-认证流程身份认证) -> StartUp
+  $("#KhcxjUssTSGCHZd8_0D0PwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("UzuLZZjORqSBH23Wol87nQ", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (FlowB2-认证流程身份认证) -> Previous screen
   $("#KhcxjUssTSGCHZd8_0D0PwnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
@@ -747,15 +1059,45 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-A04-还款记录@data) -> P-G01-消息中心@空页
+  $("#THoHEl76TveGO-PK-imCFAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("szvQgE4TSr-vD9gQeGGC4g", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-A04-还款记录@data) -> StartUp
+  $("#THoHEl76TveGO-PK-imCFAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("szvQgE4TSr-vD9gQeGGC4g", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-A04-还款记录@data) -> Previous screen
   $("#THoHEl76TveGO-PK-imCFAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-G01-消息中心@空页) -> StartUp
+  $("#PUJW9hT6QsiwZVwum0FIwgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("k4Kwa8tdS6qqVrrG5MlAhQ", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-G01-消息中心@空页) -> Previous screen
   $("#PUJW9hT6QsiwZVwum0FIwgnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowB1-认证流程确认) -> P-G01-消息中心@空页
+  $("#HN0EWK7RSwaW_sgLqChGIgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("Fyo7M_V1RQatoWE3ipzpCQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowB1-认证流程确认) -> StartUp
+  $("#HN0EWK7RSwaW_sgLqChGIgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("Fyo7M_V1RQatoWE3ipzpCQ", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
@@ -813,6 +1155,18 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (FlowC3-绑定银行卡-成功) -> P-G01-消息中心@空页
+  $("#UNue0hSsRvOco05h1ImtsAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("a4R6L8QdTTUWgvhp2afVY5Q", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowC3-绑定银行卡-成功) -> StartUp
+  $("#UNue0hSsRvOco05h1ImtsAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("a4R6L8QdTTUWgvhp2afVY5Q", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (FlowC3-绑定银行卡-成功) -> Previous screen
   $("#UNue0hSsRvOco05h1ImtsAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
@@ -837,27 +1191,39 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: NavBar (B01登录_Home@注册用户-none) -> P-G01-消息中心@空页
-  $("#a1Be4ddpvRSubAiQBzXEFdg").on("tapone", function(event) {
-    screenTransition.instant("a7GvDAMq5SbSH7x9jMH_2EQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+  // Tap: hotspot (B01登录_Home@注册用户-none) -> P-G01-消息中心@空页
+  $("#GHbWjRdwTj6nTMbPn7FWZws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("a7GvDAMq5SbSH7x9jMH_2EQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
     event.stopPropagation();
   });
 
-  // Tap: LEFT LOGO (B01登录_Home@注册用户-none) -> Previous screen
-  $("#a1Be4ddpvRSubAiQBzXEFdgnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
-    screenTransition.back($(this));
+  // Tap: hotspot (B01登录_Home@注册用户-none) -> StartUp
+  $("#GHbWjRdwTj6nTMbPn7FWZwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("a7GvDAMq5SbSH7x9jMH_2EQ", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: TAB 3 (B01登录_Home@注册用户-none) -> B03我的账户@注册用户
   $("#a-OlrIHcITFKpdQAb7IWEWAXHFmmQozTWSf5B_-5X_mPg").on("tapone", function(event) {
-    screenTransition.slideLeft("a7GvDAMq5SbSH7x9jMH_2EQ", "x9OXSSDHR-O7KEuUFgX6wg");
+    screenTransition.instant("a7GvDAMq5SbSH7x9jMH_2EQ", "x9OXSSDHR-O7KEuUFgX6wg");
     event.stopPropagation();
   });
 
   // Tap: TAB 2 (B01登录_Home@注册用户-none) -> B02订单@注册用户
   $("#a-OlrIHcITFKpdQAb7IWEWA_q-FuLLKShOeGRMIgEw9rA").on("tapone", function(event) {
-    screenTransition.slideLeft("a7GvDAMq5SbSH7x9jMH_2EQ", "ml5BOIRYTZWuVq96lUzA3A");
+    screenTransition.instant("a7GvDAMq5SbSH7x9jMH_2EQ", "ml5BOIRYTZWuVq96lUzA3A");
+    event.stopPropagation();
+  });
+
+  // Tap: NavBar (B01登录_Home@注册用户-none) -> P-G01-消息中心@空页
+  $("#GHbWjRdwTj6nTMbPn7FWZw").on("tapone", function(event) {
+    screenTransition.instant("a7GvDAMq5SbSH7x9jMH_2EQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (B01登录_Home@注册用户-none) -> Previous screen
+  $("#GHbWjRdwTj6nTMbPn7FWZwnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+    screenTransition.back($(this));
     event.stopPropagation();
   });
 
@@ -885,6 +1251,18 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-E01-设置) -> P-G01-消息中心@空页
+  $("#tdPbp8mbSZuV0Oh3CLouFgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("LjdYkOB7R9auHq1Bjw39pg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-E01-设置) -> StartUp
+  $("#tdPbp8mbSZuV0Oh3CLouFgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("LjdYkOB7R9auHq1Bjw39pg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-E01-设置) -> Previous screen
   $("#tdPbp8mbSZuV0Oh3CLouFgnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
@@ -897,21 +1275,45 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (D02订单@注册用户) -> P-G01-消息中心@空页
+  $("#a5P8fgxpVTbWTMkf-3jGyOAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("IwEgtisHSIS5nbbkeoQ1ZQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (D02订单@注册用户) -> StartUp
+  $("#a5P8fgxpVTbWTMkf-3jGyOAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("IwEgtisHSIS5nbbkeoQ1ZQ", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (D02订单@注册用户) -> D03我的账户@注册用户
   $("#RJM_ZYYZQLmkGCxfNBQudgOu_1qlACQ4qvmR_9jWsIIQ").on("tapone", function(event) {
-    screenTransition.slideLeft("IwEgtisHSIS5nbbkeoQ1ZQ", "G61atJxbTyGXPEWuV94rJw");
+    screenTransition.instant("IwEgtisHSIS5nbbkeoQ1ZQ", "G61atJxbTyGXPEWuV94rJw");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (D02订单@注册用户) -> D01登录@注册认证用户-审核中_Checking
   $("#RJM_ZYYZQLmkGCxfNBQudgHLwuC8CkQOOF60UlrSW2oA").on("tapone", function(event) {
-    screenTransition.slideRight("IwEgtisHSIS5nbbkeoQ1ZQ", "a0JqWSPHfTeOkOKxGnHwMog");
+    screenTransition.instant("IwEgtisHSIS5nbbkeoQ1ZQ", "a0JqWSPHfTeOkOKxGnHwMog");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (D02订单@注册用户) -> Previous screen
   $("#a5P8fgxpVTbWTMkf-3jGyOAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-A02-还款@data) -> P-G01-消息中心@空页
+  $("#FooKjxaTSwukhnWvSiJTHws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("LeRX5jOKS6ejGXxhZOvGcg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-A02-还款@data) -> StartUp
+  $("#FooKjxaTSwukhnWvSiJTHwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("LeRX5jOKS6ejGXxhZOvGcg", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
@@ -939,9 +1341,33 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-D01-还款信息@空页) -> P-G01-消息中心@空页
+  $("#sUd_3gECRM6ckSn4xC7lnAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("hdOCKO7-R2aBrl8k29NSUw", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-D01-还款信息@空页) -> StartUp
+  $("#sUd_3gECRM6ckSn4xC7lnAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("hdOCKO7-R2aBrl8k29NSUw", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (P-D01-还款信息@空页) -> Previous screen
   $("#sUd_3gECRM6ckSn4xC7lnAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-G02-消息中心@data) -> P-G01-消息中心@空页
+  $("#dGM39eHBThO60cbWQamhxQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("YXHSqPQIRm6iJgdzll5wPg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-G02-消息中心@data) -> StartUp
+  $("#dGM39eHBThO60cbWQamhxQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("YXHSqPQIRm6iJgdzll5wPg", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
@@ -951,27 +1377,63 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (FlowB4-认证完成通知) -> P-G01-消息中心@空页
+  $("#apRxaMZ8SDa_vhIYfu_kcAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("ZdeNVi2kRr2N5IsGB2BRzg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowB4-认证完成通知) -> StartUp
+  $("#apRxaMZ8SDa_vhIYfu_kcAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("ZdeNVi2kRr2N5IsGB2BRzg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: LEFT LOGO (FlowB4-认证完成通知) -> Previous screen
   $("#apRxaMZ8SDa_vhIYfu_kcAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
+  // Tap: hotspot (F02订单@注册用户) -> P-G01-消息中心@空页
+  $("#zlk4iiuBTeuiXpK9j8MZ_gs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("Q4KZTjttTG-4woeMbtAG8w", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (F02订单@注册用户) -> StartUp
+  $("#zlk4iiuBTeuiXpK9j8MZ_gzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (F02订单@注册用户) -> F03我的账户@注册用户
   $("#eZAAPsSvSNyFr2Kqh6r8kQAd5nZ90QR_CJMqzr9Infug").on("tapone", function(event) {
-    screenTransition.slideLeft("Q4KZTjttTG-4woeMbtAG8w", "JHWpAYsQQC6gJzeqgL6ByQ");
+    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "JHWpAYsQQC6gJzeqgL6ByQ");
     event.stopPropagation();
   });
 
   // Tap: TAB 1 (F02订单@注册用户) -> F01登录_Home@注册用户
   $("#eZAAPsSvSNyFr2Kqh6r8kQCouXwM8jS3eeEpaMxffZmA").on("tapone", function(event) {
-    screenTransition.slideRight("Q4KZTjttTG-4woeMbtAG8w", "YMZFY2QgQJWYh8H2lqPXPA");
+    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "YMZFY2QgQJWYh8H2lqPXPA");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (F02订单@注册用户) -> Previous screen
   $("#zlk4iiuBTeuiXpK9j8MZ_gnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowC2-选择银行) -> P-G01-消息中心@空页
+  $("#bfizJjaLSISh-egZyz_pIQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("xpozwDEnT9GGttZZ2GSkBw", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowC2-选择银行) -> StartUp
+  $("#bfizJjaLSISh-egZyz_pIQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("xpozwDEnT9GGttZZ2GSkBw", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
