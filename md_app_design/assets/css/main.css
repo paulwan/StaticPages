@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: "Lucida Grande";
+  src: url("../fonts/lucida_grande.woff") format("woff"), url("../fonts/lucida_grande.ttf") format("ttf");
+}
+
+@font-face {
   font-family: "PingFang SC";
   src: url("../fonts/ping_fang_sc_medium.woff") format("woff"), url("../fonts/ping_fang_sc_medium.ttf") format("ttf");
   font-weight: 500;
