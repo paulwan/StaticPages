@@ -219,6 +219,12 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: 返回 (StyleGuide) -> StartUp
+  $("#rX_mjLzdTAik676maqqGNw").on("tapone", function(event) {
+    screenTransition.slideLeft("a_PgZYHeYQm6K3pBNvWRQeQ", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
   // Tap: TAB 3 (C01登录_@注册用户-认证未完成) -> C03我的账户@注册用户
   $("#CzuBWuD7Q1miUZnBYESc6gsohdh5gVRyuiy7oghiBc9A").on("tapone", function(event) {
     screenTransition.slideLeft("iulX1mmZRYG_ioIT_qiTcA", "Almvivx2SFy8l5dWmlKUZw");
