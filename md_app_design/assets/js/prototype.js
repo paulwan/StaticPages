@@ -467,7 +467,7 @@ $(function() {
 
   // Tap: close (FlowA3-注册新用户) -> A01登录_Home@新用户-none
   $("#a0j1RzqKpQdyDmkQ8P91puAJrgTIcqzSBSJi0wymlw8nw").on("tapone", function(event) {
-    screenTransition.slideDown("tSTV35uvTBWCyii2YMO3Ng", "F2LTMLcFT5aVOa41tiRfjQ");
+    screenTransition.slideRight("tSTV35uvTBWCyii2YMO3Ng", "F2LTMLcFT5aVOa41tiRfjQ");
     event.stopPropagation();
   });
 
@@ -551,7 +551,7 @@ $(function() {
 
   // Tap: close (FlowA2-注册新用户) -> A01登录_Home@新用户-none
   $("#SLACjdu_SSStwhnoIU-x4wJrgTIcqzSBSJi0wymlw8nw").on("tapone", function(event) {
-    screenTransition.slideDown("N0eGDP46QgC_9-8Yc-QU6g", "F2LTMLcFT5aVOa41tiRfjQ");
+    screenTransition.slideRight("N0eGDP46QgC_9-8Yc-QU6g", "F2LTMLcFT5aVOa41tiRfjQ");
     event.stopPropagation();
   });
 
@@ -893,7 +893,7 @@ $(function() {
 
   // Tap: close (FlowA4-注册新用户) -> A01登录_Home@新用户-none
   $("#ZCZRmNpQSGCB-jc2iJ_pKAJrgTIcqzSBSJi0wymlw8nw").on("tapone", function(event) {
-    screenTransition.slideDown("a3LJoo4buQb-BbdHSaRkGuw", "F2LTMLcFT5aVOa41tiRfjQ");
+    screenTransition.slideRight("a3LJoo4buQb-BbdHSaRkGuw", "F2LTMLcFT5aVOa41tiRfjQ");
     event.stopPropagation();
   });
 
@@ -1301,7 +1301,7 @@ $(function() {
 
   // Tap: close (FlowA1-注册新用户) -> A01登录_Home@新用户-none
   $("#sAIXRPRmR0q-7OSvZ56ALQJrgTIcqzSBSJi0wymlw8nw").on("tapone", function(event) {
-    screenTransition.slideDown("esWRo_JaS620L0i_HL-Lsg", "F2LTMLcFT5aVOa41tiRfjQ");
+    screenTransition.slideRight("esWRo_JaS620L0i_HL-Lsg", "F2LTMLcFT5aVOa41tiRfjQ");
     event.stopPropagation();
   });
 
