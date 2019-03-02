@@ -351,12 +351,6 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-A03-还款记录@空页) -> P-G01-消息中心@空页
-  $("#ekQkZwiDTQ-DvRBy-hQkrAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("WiJ82FgRRvyQBxmul-pM7Q", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-A03-还款记录@空页) -> StartUp
   $("#ekQkZwiDTQ-DvRBy-hQkrAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
     screenTransition.instant("WiJ82FgRRvyQBxmul-pM7Q", "cTlpmuyERFazkGMXoSNzlg");
@@ -645,7 +639,7 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: Pop-Cell (D03我的账户@注册用户) -> P-A02-还款@data
+  // Tap: Pop-Cell (D03我的账户@注册用户) -> P-A02-还款@data-审批中
   $("#losA95sLRzSLKE4krcGa8Q").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("G61atJxbTyGXPEWuV94rJw", "LeRX5jOKS6ejGXxhZOvGcg");
     event.stopPropagation();
@@ -705,7 +699,7 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: Pop-Cell (E03我的账户@注册用户) -> P-A02-还款@data
+  // Tap: Pop-Cell (E03我的账户@注册用户) -> P-A02-还款@data-审批中
   $("#a_EKLtyAxRwGnZlVw-z2LhA").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("VN8W6Zy7QMuTulMDVIj7Fg", "LeRX5jOKS6ejGXxhZOvGcg");
     event.stopPropagation();
@@ -765,9 +759,9 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: Pop-Cell (F03我的账户@注册用户) -> P-A02-还款@data
+  // Tap: Pop-Cell (F03我的账户@注册用户) -> P-A03-还款@data-已放款
   $("#GBqtoXrzQBG5BP83p4waWA").on("tapone-iscroll", function(event) {
-    screenTransition.slideLeft("JHWpAYsQQC6gJzeqgL6ByQ", "LeRX5jOKS6ejGXxhZOvGcg");
+    screenTransition.slideRight("JHWpAYsQQC6gJzeqgL6ByQ", "AJ4wmKffQZawq-mAHdSgfA");
     event.stopPropagation();
   });
 
@@ -795,12 +789,6 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-D02-还款信息@data) -> P-G01-消息中心@空页
-  $("#kyLsCXMiTVmkgxhikroyhws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("a1Ta66ckR5SX134d24FkDw", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-D02-还款信息@data) -> StartUp
   $("#kyLsCXMiTVmkgxhikroyhwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
     screenTransition.instant("a1Ta66ckR5SX134d24FkDw", "cTlpmuyERFazkGMXoSNzlg");
@@ -813,12 +801,6 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-F01-帮助与反馈) -> P-G01-消息中心@空页
-  $("#QKZEXkgXRIKbjp_-zlhWygs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("RUzgylu2TCSDFvA1e8U7TA", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-F01-帮助与反馈) -> StartUp
   $("#QKZEXkgXRIKbjp_-zlhWygzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
     screenTransition.instant("RUzgylu2TCSDFvA1e8U7TA", "cTlpmuyERFazkGMXoSNzlg");
@@ -828,12 +810,6 @@ $(function() {
   // Tap: LEFT LOGO (P-F01-帮助与反馈) -> Previous screen
   $("#QKZEXkgXRIKbjp_-zlhWygnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (FlowC1-绑定银行卡) -> P-G01-消息中心@空页
-  $("#a3-PaFcdZSYGeneCFeRvpVAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("Pe5-xSGLTmiAGcf6_TPa6w", "k4Kwa8tdS6qqVrrG5MlAhQ");
     event.stopPropagation();
   });
 
@@ -867,9 +843,21 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-A01-还款@空页) -> P-G01-消息中心@空页
-  $("#t2uH5ru7Rlylp7nB-856AAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("x6HEDs73QDC-3SL7x03KuQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+  // Tap: hotspot (P-A03-还款@data-已放款) -> StartUp
+  $("#T01TJkklTBKxDM6DRicuWgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("AJ4wmKffQZawq-mAHdSgfA", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (P-A03-还款@data-已放款) -> Previous screen
+  $("#T01TJkklTBKxDM6DRicuWgnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+    screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: 还款记录 (P-A03-还款@data-已放款) -> P-A04-还款记录@data
+  $("#a9UGTuIpReK7oE9t8kVjIQ").on("tapone", function(event) {
+    screenTransition.slideLeft("AJ4wmKffQZawq-mAHdSgfA", "szvQgE4TSr-vD9gQeGGC4g");
     event.stopPropagation();
   });
 
@@ -1035,12 +1023,6 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-A04-还款记录@data) -> P-G01-消息中心@空页
-  $("#THoHEl76TveGO-PK-imCFAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("szvQgE4TSr-vD9gQeGGC4g", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-A04-还款记录@data) -> StartUp
   $("#THoHEl76TveGO-PK-imCFAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
     screenTransition.instant("szvQgE4TSr-vD9gQeGGC4g", "cTlpmuyERFazkGMXoSNzlg");
@@ -1131,12 +1113,6 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (FlowC3-绑定银行卡-成功) -> P-G01-消息中心@空页
-  $("#UNue0hSsRvOco05h1ImtsAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("a4R6L8QdTTUWgvhp2afVY5Q", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (FlowC3-绑定银行卡-成功) -> StartUp
   $("#UNue0hSsRvOco05h1ImtsAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
     screenTransition.instant("a4R6L8QdTTUWgvhp2afVY5Q", "cTlpmuyERFazkGMXoSNzlg");
@@ -1221,12 +1197,6 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-E01-设置) -> P-G01-消息中心@空页
-  $("#tdPbp8mbSZuV0Oh3CLouFgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("LjdYkOB7R9auHq1Bjw39pg", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-E01-设置) -> StartUp
   $("#tdPbp8mbSZuV0Oh3CLouFgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
     screenTransition.instant("LjdYkOB7R9auHq1Bjw39pg", "cTlpmuyERFazkGMXoSNzlg");
@@ -1275,25 +1245,19 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-A02-还款@data) -> P-G01-消息中心@空页
-  $("#FooKjxaTSwukhnWvSiJTHws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("LeRX5jOKS6ejGXxhZOvGcg", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (P-A02-还款@data) -> StartUp
+  // Tap: hotspot (P-A02-还款@data-审批中) -> StartUp
   $("#FooKjxaTSwukhnWvSiJTHwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
     screenTransition.instant("LeRX5jOKS6ejGXxhZOvGcg", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
-  // Tap: LEFT LOGO (P-A02-还款@data) -> Previous screen
+  // Tap: LEFT LOGO (P-A02-还款@data-审批中) -> Previous screen
   $("#FooKjxaTSwukhnWvSiJTHwnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
-  // Tap: 还款记录 (P-A02-还款@data) -> P-A04-还款记录@data
+  // Tap: 还款记录 (P-A02-还款@data-审批中) -> P-A04-还款记录@data
   $("#FDEVyzSiT2qNpauByxzk1A").on("tapone", function(event) {
     screenTransition.slideLeft("LeRX5jOKS6ejGXxhZOvGcg", "szvQgE4TSr-vD9gQeGGC4g");
     event.stopPropagation();
@@ -1308,12 +1272,6 @@ $(function() {
   // Tap: Input/Basic/ Icon||Text (FlowA1-注册新用户) -> FlowA2-注册新用户
   $("#RDvAgRcWQC2v1-s4cJesNQ").on("tapone", function(event) {
     screenTransition.instant("esWRo_JaS620L0i_HL-Lsg", "N0eGDP46QgC_9-8Yc-QU6g");
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (P-D01-还款信息@空页) -> P-G01-消息中心@空页
-  $("#sUd_3gECRM6ckSn4xC7lnAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("hdOCKO7-R2aBrl8k29NSUw", "k4Kwa8tdS6qqVrrG5MlAhQ");
     event.stopPropagation();
   });
 
@@ -1374,12 +1332,6 @@ $(function() {
   // Tap: LEFT LOGO (FlowB4-认证完成通知) -> Previous screen
   $("#apRxaMZ8SDa_vhIYfu_kcAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (FlowC2-选择银行) -> P-G01-消息中心@空页
-  $("#bfizJjaLSISh-egZyz_pIQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("xpozwDEnT9GGttZZ2GSkBw", "k4Kwa8tdS6qqVrrG5MlAhQ");
     event.stopPropagation();
   });
 
