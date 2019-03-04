@@ -1406,6 +1406,12 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: outlineBtn (F02订单@注册用户) -> P-D02-还款信息@data
+  $("#a7hgHXWwhQrqjMIkGZr01Mg").on("tapone-iscroll", function(event) {
+    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "a1Ta66ckR5SX134d24FkDw");
+    event.stopPropagation();
+  });
+
   // Tap: hotspot (FlowC2-选择银行) -> StartUp
   $("#bfizJjaLSISh-egZyz_pIQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
     screenTransition.instant("xpozwDEnT9GGttZZ2GSkBw", "cTlpmuyERFazkGMXoSNzlg");
