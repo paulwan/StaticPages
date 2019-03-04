@@ -21,14 +21,62 @@ $(function() {
   var interactionManager = InteractionManager.getInstance();
 
   // Tap: hotspot (P-F04-常见问题) -> StartUp
-  $("#gwHoIC1cR8eJSIaUH6h0bQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#gwHoIC1cR8eJSIaUH6h0bQ-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("XY0cJ_N9TeW8uebDQ5w_og", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-F04-常见问题) -> Previous screen
-  $("#gwHoIC1cR8eJSIaUH6h0bQnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#gwHoIC1cR8eJSIaUH6h0bQdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-G02-消息中心@data) -> StartUp
+  $("#dGM39eHBThO60cbWQamhxQ-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("YXHSqPQIRm6iJgdzll5wPg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (P-G02-消息中心@data) -> Previous screen
+  $("#dGM39eHBThO60cbWQamhxQdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
+    screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (F02订单@注册用户) -> P-G01-消息中心@空页
+  $("#zlk4iiuBTeuiXpK9j8MZ_gs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("Q4KZTjttTG-4woeMbtAG8w", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (F02订单@注册用户) -> StartUp
+  $("#zlk4iiuBTeuiXpK9j8MZ_gzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: TAB 3 (F02订单@注册用户) -> F03我的账户@注册用户
+  $("#eZAAPsSvSNyFr2Kqh6r8kQAd5nZ90QR_CJMqzr9Infug").on("tapone", function(event) {
+    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "JHWpAYsQQC6gJzeqgL6ByQ");
+    event.stopPropagation();
+  });
+
+  // Tap: TAB 1 (F02订单@注册用户) -> F01登录_Home@注册用户
+  $("#eZAAPsSvSNyFr2Kqh6r8kQCouXwM8jS3eeEpaMxffZmA").on("tapone", function(event) {
+    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "YMZFY2QgQJWYh8H2lqPXPA");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (F02订单@注册用户) -> Previous screen
+  $("#zlk4iiuBTeuiXpK9j8MZ_gnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+    screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: outlineBtn (F02订单@注册用户) -> P-D02-还款信息@data
+  $("#a7hgHXWwhQrqjMIkGZr01Mg").on("tapone-iscroll", function(event) {
+    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "a1Ta66ckR5SX134d24FkDw");
     event.stopPropagation();
   });
 
@@ -71,6 +119,12 @@ $(function() {
   // Tap: Pop-Cell (B03我的账户@注册用户) -> P-B01-我的银行卡@空页
   $("#nn4extX7RAuvI_jdPTbnhQ").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("x9OXSSDHR-O7KEuUFgX6wg", "F-jhzxk1RT6Vgkema_IGUg");
+    event.stopPropagation();
+  });
+
+  // Tap: Pop-Cell (B03我的账户@注册用户) -> P-D01-还款信息@空页
+  $("#ALdPOVMSQ12sKMqf40LRRA").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("x9OXSSDHR-O7KEuUFgX6wg", "hdOCKO7-R2aBrl8k29NSUw");
     event.stopPropagation();
   });
 
@@ -146,6 +200,12 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: Pop-Cell (C03我的账户@注册用户) -> P-D01-还款信息@空页
+  $("#q0npNB7QT1KwC0KoU9fD-g").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("Almvivx2SFy8l5dWmlKUZw", "hdOCKO7-R2aBrl8k29NSUw");
+    event.stopPropagation();
+  });
+
   // Tap: Pop-Cell (C03我的账户@注册用户) -> P-E01-设置
   $("#rX9_63D3THaqJjJzSy2PDQ").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("Almvivx2SFy8l5dWmlKUZw", "LjdYkOB7R9auHq1Bjw39pg");
@@ -179,18 +239,6 @@ $(function() {
   // Tap: LEFT LOGO (E01登录@注册+认证用户-审核通过) -> Previous screen
   $("#vElv6qqVSTyS0xlSBHdXPQZhb2SJuwR7SkqyVpZT14xQ").on("tapone", function(event) {
     screenTransition.back($(this));
-    event.stopPropagation();
-  });
-
-  // Tap: Group 3 (E01登录@注册+认证用户-审核通过) -> P-B01-我的银行卡@空页
-  $("#uL0wFlh4TS2wTZHAdgBDdQ").on("tapone-iscroll", function(event) {
-    screenTransition.slideLeft("dgUyIBSLQlWffV2FS8qNOg", "F-jhzxk1RT6Vgkema_IGUg");
-    event.stopPropagation();
-  });
-
-  // Tap: outlineBtn (E01登录@注册+认证用户-审核通过) -> FlowC1-绑定银行卡
-  $("#CdbCY7atQaiFOtpMPeA0Hw").on("tapone-iscroll", function(event) {
-    screenTransition.instant("dgUyIBSLQlWffV2FS8qNOg", "Pe5-xSGLTmiAGcf6_TPa6w");
     event.stopPropagation();
   });
 
@@ -238,6 +286,12 @@ $(function() {
 
   // Tap: Pop-Cell (A03我的账户@游客) -> P-D01-还款信息@空页
   $("#Yu4Wf6FbTziB9YNBkUE_oQ").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("QuWTup8VQhOy3JkaTTpUtg", "hdOCKO7-R2aBrl8k29NSUw");
+    event.stopPropagation();
+  });
+
+  // Tap: Pop-Cell (A03我的账户@游客) -> P-D01-还款信息@空页
+  $("#taOb6AcwRaS8EwyD-rnggQ").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("QuWTup8VQhOy3JkaTTpUtg", "hdOCKO7-R2aBrl8k29NSUw");
     event.stopPropagation();
   });
@@ -302,20 +356,14 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-H01-用户协议) -> P-G01-消息中心@空页
-  $("#UwLvigZAR-SaNKW_zEF8DAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("euwkT_pnRFyaoJOikGidyA", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-H01-用户协议) -> StartUp
-  $("#UwLvigZAR-SaNKW_zEF8DAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#UwLvigZAR-SaNKW_zEF8DA-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("euwkT_pnRFyaoJOikGidyA", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-H01-用户协议) -> Previous screen
-  $("#UwLvigZAR-SaNKW_zEF8DAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#UwLvigZAR-SaNKW_zEF8DAdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -363,13 +411,13 @@ $(function() {
   });
 
   // Tap: hotspot (P-A03-还款记录@空页) -> StartUp
-  $("#ekQkZwiDTQ-DvRBy-hQkrAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#ekQkZwiDTQ-DvRBy-hQkrA-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("WiJ82FgRRvyQBxmul-pM7Q", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-A03-还款记录@空页) -> Previous screen
-  $("#ekQkZwiDTQ-DvRBy-hQkrAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#ekQkZwiDTQ-DvRBy-hQkrAdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -495,13 +543,13 @@ $(function() {
   });
 
   // Tap: hotspot (P-F03-意见反馈) -> StartUp
-  $("#ieenbN7LS8mgvOaNJKEV-gzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#ieenbN7LS8mgvOaNJKEV-g-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("SqZqNzEiQ56lHCZi48YXVw", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-F03-意见反馈) -> Previous screen
-  $("#ieenbN7LS8mgvOaNJKEV-gnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#ieenbN7LS8mgvOaNJKEV-gdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -686,6 +734,12 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: Pop-Cell (D03我的账户@注册用户) -> P-D01-还款信息@空页
+  $("#SdgaY-zZR1uFalPb95plrg").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("G61atJxbTyGXPEWuV94rJw", "hdOCKO7-R2aBrl8k29NSUw");
+    event.stopPropagation();
+  });
+
   // Tap: Pop-Cell (D03我的账户@注册用户) -> P-E01-设置
   $("#CJ_JyJ1YQ4C9B98r-1xfyQ").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("G61atJxbTyGXPEWuV94rJw", "LjdYkOB7R9auHq1Bjw39pg");
@@ -746,9 +800,39 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: Pop-Cell (E03我的账户@注册用户) -> P-D01-还款信息@空页
+  $("#a2HZaylEnSjSROqd5OBryOw").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("VN8W6Zy7QMuTulMDVIj7Fg", "hdOCKO7-R2aBrl8k29NSUw");
+    event.stopPropagation();
+  });
+
   // Tap: Pop-Cell (E03我的账户@注册用户) -> P-E01-设置
   $("#bW_VGODVS3-KG4Q14z0K9g").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("VN8W6Zy7QMuTulMDVIj7Fg", "LjdYkOB7R9auHq1Bjw39pg");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowD3-紧急联系人) -> StartUp
+  $("#a-rfiiifNSXq-g2PHzeGhOw-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("tm6Q8oHRQzKWpWFswLrOww", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (FlowD3-紧急联系人) -> Previous screen
+  $("#a-rfiiifNSXq-g2PHzeGhOwdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
+    screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: Group 2 (FlowD3-紧急联系人) -> FlowD2-基本信息填写完成
+  $("#phVXwrW8S3-6QaicS0IMFQ").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("tm6Q8oHRQzKWpWFswLrOww", "HT7teQ8JRdCLhj38UlrAYA");
+    event.stopPropagation();
+  });
+
+  // Tap: Group 2 (FlowD3-紧急联系人) -> FlowD2-基本信息填写完成
+  $("#mR98SGYFRnyLpChysxmxiA").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("tm6Q8oHRQzKWpWFswLrOww", "HT7teQ8JRdCLhj38UlrAYA");
     event.stopPropagation();
   });
 
@@ -806,62 +890,74 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: Pop-Cell (F03我的账户@注册用户) -> P-D01-还款信息@空页
+  $("#DE8GAMoDRYebCLyTdXfOfg").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("JHWpAYsQQC6gJzeqgL6ByQ", "hdOCKO7-R2aBrl8k29NSUw");
+    event.stopPropagation();
+  });
+
   // Tap: Pop-Cell (F03我的账户@注册用户) -> P-E01-设置
   $("#a5kumlcOcQBeaf4Lmz96PYQ").on("tapone-iscroll", function(event) {
     screenTransition.slideLeft("JHWpAYsQQC6gJzeqgL6ByQ", "LjdYkOB7R9auHq1Bjw39pg");
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-D02-还款信息@data) -> StartUp
-  $("#kyLsCXMiTVmkgxhikroyhwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("a1Ta66ckR5SX134d24FkDw", "cTlpmuyERFazkGMXoSNzlg");
-    event.stopPropagation();
-  });
-
-  // Tap: LEFT LOGO (P-D02-还款信息@data) -> Previous screen
-  $("#kyLsCXMiTVmkgxhikroyhwnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
-    screenTransition.back($(this));
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-F01-帮助与反馈) -> StartUp
-  $("#QKZEXkgXRIKbjp_-zlhWygzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#QKZEXkgXRIKbjp_-zlhWyg-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("RUzgylu2TCSDFvA1e8U7TA", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-F01-帮助与反馈) -> Previous screen
-  $("#QKZEXkgXRIKbjp_-zlhWygnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#QKZEXkgXRIKbjp_-zlhWygdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: TableCell (P-F01-帮助与反馈) -> P-F02-帮助中心
+  $("#azXs7ceXQsyV8fqpLUGW7g").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("RUzgylu2TCSDFvA1e8U7TA", "NuwvdM0wSiiacLasoOvt5Q");
     event.stopPropagation();
   });
 
   // Tap: TableCell (P-F01-帮助与反馈) -> P-F03-意见反馈
   $("#vFC4TeDDQK-Vy9Smiz6Kxg").on("tapone-iscroll", function(event) {
-    screenTransition.slideRight("RUzgylu2TCSDFvA1e8U7TA", "SqZqNzEiQ56lHCZi48YXVw");
+    screenTransition.slideLeft("RUzgylu2TCSDFvA1e8U7TA", "SqZqNzEiQ56lHCZi48YXVw");
     event.stopPropagation();
   });
 
   // Tap: TableCell (P-F01-帮助与反馈) -> P-F04-常见问题
   $("#emPKYuQTSQW37lw-H6Px7g").on("tapone-iscroll", function(event) {
-    screenTransition.slideRight("RUzgylu2TCSDFvA1e8U7TA", "XY0cJ_N9TeW8uebDQ5w_og");
+    screenTransition.slideLeft("RUzgylu2TCSDFvA1e8U7TA", "XY0cJ_N9TeW8uebDQ5w_og");
     event.stopPropagation();
   });
 
   // Tap: TableCell (P-F01-帮助与反馈) -> P-F05-关于我们
   $("#mA5STdl-TIKO_inHCozFVw").on("tapone-iscroll", function(event) {
-    screenTransition.slideRight("RUzgylu2TCSDFvA1e8U7TA", "a4zsgTv3zTZ2SppxpBPmGRw");
+    screenTransition.slideLeft("RUzgylu2TCSDFvA1e8U7TA", "a4zsgTv3zTZ2SppxpBPmGRw");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-D02-还款信息@data) -> StartUp
+  $("#kyLsCXMiTVmkgxhikroyhw-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("a1Ta66ckR5SX134d24FkDw", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (P-D02-还款信息@data) -> Previous screen
+  $("#kyLsCXMiTVmkgxhikroyhwdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
+    screenTransition.back($(this));
     event.stopPropagation();
   });
 
   // Tap: hotspot (FlowC1-绑定银行卡) -> StartUp
-  $("#a3-PaFcdZSYGeneCFeRvpVAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#a3-PaFcdZSYGeneCFeRvpVA-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("Pe5-xSGLTmiAGcf6_TPa6w", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (FlowC1-绑定银行卡) -> Previous screen
-  $("#a3-PaFcdZSYGeneCFeRvpVAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#a3-PaFcdZSYGeneCFeRvpVAdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -885,13 +981,13 @@ $(function() {
   });
 
   // Tap: hotspot (P-A03-还款@data-已放款) -> StartUp
-  $("#T01TJkklTBKxDM6DRicuWgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#T01TJkklTBKxDM6DRicuWg-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("AJ4wmKffQZawq-mAHdSgfA", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-A03-还款@data-已放款) -> Previous screen
-  $("#T01TJkklTBKxDM6DRicuWgnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#T01TJkklTBKxDM6DRicuWgdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -903,13 +999,13 @@ $(function() {
   });
 
   // Tap: hotspot (P-A01-还款@空页) -> StartUp
-  $("#t2uH5ru7Rlylp7nB-856AAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#t2uH5ru7Rlylp7nB-856AA-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("x6HEDs73QDC-3SL7x03KuQ", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-A01-还款@空页) -> Previous screen
-  $("#t2uH5ru7Rlylp7nB-856AAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#t2uH5ru7Rlylp7nB-856AAdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -968,20 +1064,14 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-B02-我的银行卡@data) -> P-G01-消息中心@空页
-  $("#EuWRUCG4RumDf1qeAP8UQQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("rtSy8sQFS4ygxyZSYfObzw", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-B02-我的银行卡@data) -> StartUp
-  $("#EuWRUCG4RumDf1qeAP8UQQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#EuWRUCG4RumDf1qeAP8UQQ-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("rtSy8sQFS4ygxyZSYfObzw", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-B02-我的银行卡@data) -> Previous screen
-  $("#EuWRUCG4RumDf1qeAP8UQQnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#EuWRUCG4RumDf1qeAP8UQQdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -992,20 +1082,14 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-B01-我的银行卡@空页) -> P-G01-消息中心@空页
-  $("#SpX3xbaVRWa6bma9-hoN5ws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("F-jhzxk1RT6Vgkema_IGUg", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-B01-我的银行卡@空页) -> StartUp
-  $("#SpX3xbaVRWa6bma9-hoN5wzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#SpX3xbaVRWa6bma9-hoN5w-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("F-jhzxk1RT6Vgkema_IGUg", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-B01-我的银行卡@空页) -> Previous screen
-  $("#SpX3xbaVRWa6bma9-hoN5wnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#SpX3xbaVRWa6bma9-hoN5wdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -1016,104 +1100,102 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (FlowB3-认证流程认证完成) -> P-G01-消息中心@空页
-  $("#a4_jgEjYSSJOp1dGy46U4OQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("DIGdzYCGSTaeT8bI6o1uNw", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (FlowB3-认证流程认证完成) -> StartUp
-  $("#a4_jgEjYSSJOp1dGy46U4OQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("DIGdzYCGSTaeT8bI6o1uNw", "cTlpmuyERFazkGMXoSNzlg");
-    event.stopPropagation();
-  });
-
   // Tap: LEFT LOGO (FlowB3-认证流程认证完成) -> Previous screen
-  $("#a4_jgEjYSSJOp1dGy46U4OQnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#a4_jgEjYSSJOp1dGy46U4OQdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
-  // Tap: Btn.a Basic/Meduim/ Regular  (FlowB3-认证流程认证完成) -> FlowB4-认证完成通知
+  // Tap: Btn.a Basic/Meduim/ Regular  (FlowB3-认证流程认证完成) -> Overlay: FlowB4-认证完成通知
   $("#a889XyNR6Q4i16z8Kh16K-g").on("tapone", function(event) {
-    screenTransition.slideLeft("DIGdzYCGSTaeT8bI6o1uNw", "ZdeNVi2kRr2N5IsGB2BRzg");
+    if (!interactionManager.getStateIndex("DIGdzYCGSTaeT8bI6o1uNwZdeNVi2kRr2N5IsGB2BRzg")) {
+      overlayTransition.instantIn("DIGdzYCGSTaeT8bI6o1uNwZdeNVi2kRr2N5IsGB2BRzg", 4, 0, 0.25, function() {
+        interactionManager.setStateIndex("DIGdzYCGSTaeT8bI6o1uNwZdeNVi2kRr2N5IsGB2BRzg", 1);
+      });
+    }
     event.stopPropagation();
   });
 
-  // Tap: hotspot (FlowB2-认证流程身份认证) -> P-G01-消息中心@空页
-  $("#KhcxjUssTSGCHZd8_0D0Pws1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("UzuLZZjORqSBH23Wol87nQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
+  // Tap: close (FlowB3-认证流程认证完成) -> D01登录@注册认证用户-审核中_Checking
+  $("#DIGdzYCGSTaeT8bI6o1uNw9QICSR_DSuiA872-jtjecg").on("tapone", function(event) {
+    screenTransition.slideRight("DIGdzYCGSTaeT8bI6o1uNw", "a0JqWSPHfTeOkOKxGnHwMog");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-F05-关于我们) -> StartUp
+  $("#mJPHWrugSLuCwsmdBlmE7Q-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("a4zsgTv3zTZ2SppxpBPmGRw", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (P-F05-关于我们) -> Previous screen
+  $("#mJPHWrugSLuCwsmdBlmE7QdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
+    screenTransition.back($(this));
     event.stopPropagation();
   });
 
   // Tap: hotspot (FlowB2-认证流程身份认证) -> StartUp
-  $("#KhcxjUssTSGCHZd8_0D0PwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#KhcxjUssTSGCHZd8_0D0Pw-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("UzuLZZjORqSBH23Wol87nQ", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (FlowB2-认证流程身份认证) -> Previous screen
-  $("#KhcxjUssTSGCHZd8_0D0PwnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#KhcxjUssTSGCHZd8_0D0PwdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
   // Tap: Btn.a Basic/Meduim/ Regular  (FlowB2-认证流程身份认证) -> FlowB3-认证流程认证完成
   $("#Wg22GGlfSWClEbm9sOWv8g").on("tapone", function(event) {
-    screenTransition.instant("UzuLZZjORqSBH23Wol87nQ", "DIGdzYCGSTaeT8bI6o1uNw");
+    screenTransition.slideLeft("UzuLZZjORqSBH23Wol87nQ", "DIGdzYCGSTaeT8bI6o1uNw");
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-F05-关于我们) -> StartUp
-  $("#mJPHWrugSLuCwsmdBlmE7QzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("a4zsgTv3zTZ2SppxpBPmGRw", "cTlpmuyERFazkGMXoSNzlg");
+  // Tap: iconBtn (FlowB2-认证流程身份认证) -> FlowD1-基本信息
+  $("#qCwGyZpjS6C8_PQYj5Bg2Q").on("tapone", function(event) {
+    screenTransition.slideLeft("UzuLZZjORqSBH23Wol87nQ", "a60UgllHbQj2K5noA6KVg8Q");
     event.stopPropagation();
   });
 
-  // Tap: LEFT LOGO (P-F05-关于我们) -> Previous screen
-  $("#mJPHWrugSLuCwsmdBlmE7QnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
-    screenTransition.back($(this));
+  // Tap: iconBtn (FlowB2-认证流程身份认证) -> FlowD3-紧急联系人
+  $("#k4QUw6F3TjW_-SOiDzB-GA").on("tapone", function(event) {
+    screenTransition.slideLeft("UzuLZZjORqSBH23Wol87nQ", "tm6Q8oHRQzKWpWFswLrOww");
     event.stopPropagation();
   });
 
   // Tap: hotspot (P-A04-还款记录@data) -> StartUp
-  $("#THoHEl76TveGO-PK-imCFAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#THoHEl76TveGO-PK-imCFA-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("szvQgE4TSr-vD9gQeGGC4g", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-A04-还款记录@data) -> Previous screen
-  $("#THoHEl76TveGO-PK-imCFAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#THoHEl76TveGO-PK-imCFAdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
   // Tap: hotspot (P-G01-消息中心@空页) -> StartUp
-  $("#PUJW9hT6QsiwZVwum0FIwgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#PUJW9hT6QsiwZVwum0FIwg-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("k4Kwa8tdS6qqVrrG5MlAhQ", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-G01-消息中心@空页) -> Previous screen
-  $("#PUJW9hT6QsiwZVwum0FIwgnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#PUJW9hT6QsiwZVwum0FIwgdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
-  // Tap: hotspot (FlowB1-认证流程确认) -> P-G01-消息中心@空页
-  $("#HN0EWK7RSwaW_sgLqChGIgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("Fyo7M_V1RQatoWE3ipzpCQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (FlowB1-认证流程确认) -> StartUp
-  $("#HN0EWK7RSwaW_sgLqChGIgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#HN0EWK7RSwaW_sgLqChGIg-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("Fyo7M_V1RQatoWE3ipzpCQ", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (FlowB1-认证流程确认) -> Previous screen
-  $("#HN0EWK7RSwaW_sgLqChGIgnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#HN0EWK7RSwaW_sgLqChGIgdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -1166,44 +1248,26 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (FlowC3-绑定银行卡-成功) -> StartUp
-  $("#UNue0hSsRvOco05h1ImtsAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("a4R6L8QdTTUWgvhp2afVY5Q", "cTlpmuyERFazkGMXoSNzlg");
+  // Tap: hotspot (P-F02-帮助中心) -> StartUp
+  $("#oL0qrwVsQuiC_qXsbMCJTA-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("NuwvdM0wSiiacLasoOvt5Q", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
-  // Tap: LEFT LOGO (FlowC3-绑定银行卡-成功) -> Previous screen
-  $("#UNue0hSsRvOco05h1ImtsAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  // Tap: LEFT LOGO (P-F02-帮助中心) -> Previous screen
+  $("#oL0qrwVsQuiC_qXsbMCJTAdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
-  // Tap: Input/Item-input (FlowC3-绑定银行卡-成功) -> FlowC2-选择银行
-  $("#HxuNXzqqRRCtAhJsmQw2aA").on("tapone-iscroll", function(event) {
-    screenTransition.slideLeft("a4R6L8QdTTUWgvhp2afVY5Q", "xpozwDEnT9GGttZZ2GSkBw");
-    event.stopPropagation();
-  });
-
-  // Tap: 《催收宝用户服务协议》 (FlowC3-绑定银行卡-成功) -> P-H01-用户协议
-  $("#a12PqSnsHQuu32PohJ8YQ4Q").on("tapone-iscroll", function(event) {
-    screenTransition.slideLeft("a4R6L8QdTTUWgvhp2afVY5Q", "euwkT_pnRFyaoJOikGidyA");
-    event.stopPropagation();
-  });
-
-  // Tap: Btn.a Basic/Meduim/ Regular  (FlowC3-绑定银行卡-成功) -> P-B02-我的银行卡@data
-  $("#iRQxbF3IQA-sr1FXGs1YvA").on("tapone-iscroll", function(event) {
-    screenTransition.instant("a4R6L8QdTTUWgvhp2afVY5Q", "rtSy8sQFS4ygxyZSYfObzw");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-E01-设置) -> StartUp
-  $("#tdPbp8mbSZuV0Oh3CLouFgzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#tdPbp8mbSZuV0Oh3CLouFg-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("LjdYkOB7R9auHq1Bjw39pg", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-E01-设置) -> Previous screen
-  $("#tdPbp8mbSZuV0Oh3CLouFgnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#tdPbp8mbSZuV0Oh3CLouFgdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -1268,6 +1332,66 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (FlowC3-绑定银行卡-成功) -> StartUp
+  $("#UNue0hSsRvOco05h1ImtsA-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("a4R6L8QdTTUWgvhp2afVY5Q", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (FlowC3-绑定银行卡-成功) -> Previous screen
+  $("#UNue0hSsRvOco05h1ImtsAdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
+    screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: Input/Item-input (FlowC3-绑定银行卡-成功) -> FlowC2-选择银行
+  $("#HxuNXzqqRRCtAhJsmQw2aA").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("a4R6L8QdTTUWgvhp2afVY5Q", "xpozwDEnT9GGttZZ2GSkBw");
+    event.stopPropagation();
+  });
+
+  // Tap: 《催收宝用户服务协议》 (FlowC3-绑定银行卡-成功) -> P-H01-用户协议
+  $("#a12PqSnsHQuu32PohJ8YQ4Q").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("a4R6L8QdTTUWgvhp2afVY5Q", "euwkT_pnRFyaoJOikGidyA");
+    event.stopPropagation();
+  });
+
+  // Tap: Btn.a Basic/Meduim/ Regular  (FlowC3-绑定银行卡-成功) -> P-B02-我的银行卡@data
+  $("#iRQxbF3IQA-sr1FXGs1YvA").on("tapone-iscroll", function(event) {
+    screenTransition.instant("a4R6L8QdTTUWgvhp2afVY5Q", "rtSy8sQFS4ygxyZSYfObzw");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-A02-还款@data-审批中) -> StartUp
+  $("#FooKjxaTSwukhnWvSiJTHw-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("LeRX5jOKS6ejGXxhZOvGcg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (P-A02-还款@data-审批中) -> Previous screen
+  $("#FooKjxaTSwukhnWvSiJTHwdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
+    screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: 还款记录 (P-A02-还款@data-审批中) -> P-A04-还款记录@data
+  $("#FDEVyzSiT2qNpauByxzk1A").on("tapone", function(event) {
+    screenTransition.slideLeft("LeRX5jOKS6ejGXxhZOvGcg", "szvQgE4TSr-vD9gQeGGC4g");
+    event.stopPropagation();
+  });
+
+  // Tap: close (FlowA1-注册新用户) -> A01登录_Home@新用户-none
+  $("#sAIXRPRmR0q-7OSvZ56ALQJrgTIcqzSBSJi0wymlw8nw").on("tapone", function(event) {
+    screenTransition.slideRight("esWRo_JaS620L0i_HL-Lsg", "F2LTMLcFT5aVOa41tiRfjQ");
+    event.stopPropagation();
+  });
+
+  // Tap: Input/Basic/ Icon||Text (FlowA1-注册新用户) -> FlowA2-注册新用户
+  $("#RDvAgRcWQC2v1-s4cJesNQ").on("tapone", function(event) {
+    screenTransition.instant("esWRo_JaS620L0i_HL-Lsg", "N0eGDP46QgC_9-8Yc-QU6g");
+    event.stopPropagation();
+  });
+
   // Tap: hotspot (D02订单@注册用户) -> P-G01-消息中心@空页
   $("#a5P8fgxpVTbWTMkf-3jGyOAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
     screenTransition.slideLeft("IwEgtisHSIS5nbbkeoQ1ZQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
@@ -1298,128 +1422,62 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-A02-还款@data-审批中) -> StartUp
-  $("#FooKjxaTSwukhnWvSiJTHwzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("LeRX5jOKS6ejGXxhZOvGcg", "cTlpmuyERFazkGMXoSNzlg");
-    event.stopPropagation();
-  });
-
-  // Tap: LEFT LOGO (P-A02-还款@data-审批中) -> Previous screen
-  $("#FooKjxaTSwukhnWvSiJTHwnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
-    screenTransition.back($(this));
-    event.stopPropagation();
-  });
-
-  // Tap: 还款记录 (P-A02-还款@data-审批中) -> P-A04-还款记录@data
-  $("#FDEVyzSiT2qNpauByxzk1A").on("tapone", function(event) {
-    screenTransition.slideLeft("LeRX5jOKS6ejGXxhZOvGcg", "szvQgE4TSr-vD9gQeGGC4g");
-    event.stopPropagation();
-  });
-
-  // Tap: close (FlowA1-注册新用户) -> A01登录_Home@新用户-none
-  $("#sAIXRPRmR0q-7OSvZ56ALQJrgTIcqzSBSJi0wymlw8nw").on("tapone", function(event) {
-    screenTransition.slideRight("esWRo_JaS620L0i_HL-Lsg", "F2LTMLcFT5aVOa41tiRfjQ");
-    event.stopPropagation();
-  });
-
-  // Tap: Input/Basic/ Icon||Text (FlowA1-注册新用户) -> FlowA2-注册新用户
-  $("#RDvAgRcWQC2v1-s4cJesNQ").on("tapone", function(event) {
-    screenTransition.instant("esWRo_JaS620L0i_HL-Lsg", "N0eGDP46QgC_9-8Yc-QU6g");
-    event.stopPropagation();
-  });
-
   // Tap: hotspot (P-D01-还款信息@空页) -> StartUp
-  $("#sUd_3gECRM6ckSn4xC7lnAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#sUd_3gECRM6ckSn4xC7lnA-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("hdOCKO7-R2aBrl8k29NSUw", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (P-D01-还款信息@空页) -> Previous screen
-  $("#sUd_3gECRM6ckSn4xC7lnAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#sUd_3gECRM6ckSn4xC7lnAdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
-  // Tap: hotspot (P-G02-消息中心@data) -> StartUp
-  $("#dGM39eHBThO60cbWQamhxQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("YXHSqPQIRm6iJgdzll5wPg", "cTlpmuyERFazkGMXoSNzlg");
+  // Tap: hotspot (FlowD1-基本信息) -> StartUp
+  $("#ENIN2UH0TRmk4wSBuSyycw-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("a60UgllHbQj2K5noA6KVg8Q", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
-  // Tap: LEFT LOGO (P-G02-消息中心@data) -> Previous screen
-  $("#dGM39eHBThO60cbWQamhxQnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  // Tap: LEFT LOGO (FlowD1-基本信息) -> Previous screen
+  $("#ENIN2UH0TRmk4wSBuSyycwdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
-  // Tap: hotspot (FlowB4-认证完成通知) -> P-G01-消息中心@空页
-  $("#apRxaMZ8SDa_vhIYfu_kcAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("ZdeNVi2kRr2N5IsGB2BRzg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+  // Tap: Group 2 (FlowD1-基本信息) -> FlowD2-基本信息填写完成
+  $("#ImhjqQ2XQP-HqTzHAObSPw").on("tapone-iscroll", function(event) {
+    screenTransition.slideLeft("a60UgllHbQj2K5noA6KVg8Q", "HT7teQ8JRdCLhj38UlrAYA");
     event.stopPropagation();
   });
 
-  // Tap: hotspot (FlowB4-认证完成通知) -> StartUp
-  $("#apRxaMZ8SDa_vhIYfu_kcAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("ZdeNVi2kRr2N5IsGB2BRzg", "cTlpmuyERFazkGMXoSNzlg");
+  // Tap: hotspot (FlowD2-基本信息填写完成) -> StartUp
+  $("#Ndly1syISLyv479mGiCAXQ-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+    screenTransition.instant("HT7teQ8JRdCLhj38UlrAYA", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
-  // Tap: LEFT LOGO (FlowB4-认证完成通知) -> Previous screen
-  $("#apRxaMZ8SDa_vhIYfu_kcAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  // Tap: LEFT LOGO (FlowD2-基本信息填写完成) -> Previous screen
+  $("#Ndly1syISLyv479mGiCAXQdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
 
-  // Tap: close (FlowB4-认证完成通知) -> D01登录@注册认证用户-审核中_Checking
-  $("#a9QICSR_DSuiA872-jtjecg").on("tapone", function(event) {
-    screenTransition.slideRight("ZdeNVi2kRr2N5IsGB2BRzg", "a0JqWSPHfTeOkOKxGnHwMog");
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (F02订单@注册用户) -> P-G01-消息中心@空页
-  $("#zlk4iiuBTeuiXpK9j8MZ_gs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("Q4KZTjttTG-4woeMbtAG8w", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (F02订单@注册用户) -> StartUp
-  $("#zlk4iiuBTeuiXpK9j8MZ_gzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "cTlpmuyERFazkGMXoSNzlg");
-    event.stopPropagation();
-  });
-
-  // Tap: TAB 3 (F02订单@注册用户) -> F03我的账户@注册用户
-  $("#eZAAPsSvSNyFr2Kqh6r8kQAd5nZ90QR_CJMqzr9Infug").on("tapone", function(event) {
-    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "JHWpAYsQQC6gJzeqgL6ByQ");
-    event.stopPropagation();
-  });
-
-  // Tap: TAB 1 (F02订单@注册用户) -> F01登录_Home@注册用户
-  $("#eZAAPsSvSNyFr2Kqh6r8kQCouXwM8jS3eeEpaMxffZmA").on("tapone", function(event) {
-    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "YMZFY2QgQJWYh8H2lqPXPA");
-    event.stopPropagation();
-  });
-
-  // Tap: LEFT LOGO (F02订单@注册用户) -> Previous screen
-  $("#zlk4iiuBTeuiXpK9j8MZ_gnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
-    screenTransition.back($(this));
-    event.stopPropagation();
-  });
-
-  // Tap: outlineBtn (F02订单@注册用户) -> P-D02-还款信息@data
-  $("#a7hgHXWwhQrqjMIkGZr01Mg").on("tapone-iscroll", function(event) {
-    screenTransition.instant("Q4KZTjttTG-4woeMbtAG8w", "a1Ta66ckR5SX134d24FkDw");
+  // Tap: 保存 (FlowD2-基本信息填写完成) -> FlowB3-认证流程认证完成
+  $("#jqg9ESQ2RkWjjc9NVxMqFQ").on("tapone", function(event) {
+    screenTransition.slideLeft("HT7teQ8JRdCLhj38UlrAYA", "DIGdzYCGSTaeT8bI6o1uNw");
     event.stopPropagation();
   });
 
   // Tap: hotspot (FlowC2-选择银行) -> StartUp
-  $("#bfizJjaLSISh-egZyz_pIQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#bfizJjaLSISh-egZyz_pIQ-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
     screenTransition.instant("xpozwDEnT9GGttZZ2GSkBw", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (FlowC2-选择银行) -> Previous screen
-  $("#bfizJjaLSISh-egZyz_pIQnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#bfizJjaLSISh-egZyz_pIQdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
