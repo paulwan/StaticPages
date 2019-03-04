@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("../fonts/helvetica_neue.woff") format("woff"), url("../fonts/helvetica_neue.ttf") format("ttf");
-}
-
-@font-face {
   font-family: "Lucida Grande";
   src: url("../fonts/lucida_grande.woff") format("woff"), url("../fonts/lucida_grande.ttf") format("ttf");
 }

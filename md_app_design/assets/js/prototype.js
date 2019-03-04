@@ -4,7 +4,6 @@ settings.scalingType = ScalingType.RESIZING_CONSTRAINTS;
 settings.homeId = "cTlpmuyERFazkGMXoSNzlg";
 settings.deviceImage = {origin: {x: 30, y: 109}, screenSize: {width: 375, height: 667}};
 settings.embeddedFonts = [
-  {fontFamily: "Helvetica Neue", src: "assets/fonts/helvetica_neue"},
   {fontFamily: "Lucida Grande", src: "assets/fonts/lucida_grande"},
   {fontFamily: "PingFang SC", src: "assets/fonts/ping_fang_sc_medium", fontWeight: "500"},
   {fontFamily: "PingFang SC", src: "assets/fonts/ping_fang_sc_regular"},
