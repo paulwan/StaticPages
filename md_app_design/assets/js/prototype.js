@@ -152,14 +152,14 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (E01登录@注册+认证用户-审核通过) -> P-G01-消息中心@空页
-  $("#vElv6qqVSTyS0xlSBHdXPQs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("dgUyIBSLQlWffV2FS8qNOg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+  // Tap: hotspot (E01登录@注册+认证用户-审核通过) -> P-G02-消息中心@data
+  $("#vElv6qqVSTyS0xlSBHdXPQRjEVYkNJS0SP0KjS35VYdA").on("tapone", function(event) {
+    screenTransition.slideLeft("dgUyIBSLQlWffV2FS8qNOg", "YXHSqPQIRm6iJgdzll5wPg");
     event.stopPropagation();
   });
 
   // Tap: hotspot (E01登录@注册+认证用户-审核通过) -> StartUp
-  $("#vElv6qqVSTyS0xlSBHdXPQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#vElv6qqVSTyS0xlSBHdXPQokD6j2plTQuyxcQs3oWnhQ").on("tapone", function(event) {
     screenTransition.instant("dgUyIBSLQlWffV2FS8qNOg", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
@@ -177,7 +177,7 @@ $(function() {
   });
 
   // Tap: LEFT LOGO (E01登录@注册+认证用户-审核通过) -> Previous screen
-  $("#vElv6qqVSTyS0xlSBHdXPQnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#vElv6qqVSTyS0xlSBHdXPQZhb2SJuwR7SkqyVpZT14xQ").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -519,19 +519,19 @@ $(function() {
   });
 
   // Tap: hotspot (F01登录_Home@注册用户) -> P-G02-消息中心@data
-  $("#RdmrXDkNQ02wQZNtWSXI3gs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+  $("#RdmrXDkNQ02wQZNtWSXI3gRjEVYkNJS0SP0KjS35VYdA").on("tapone", function(event) {
     screenTransition.slideLeft("YMZFY2QgQJWYh8H2lqPXPA", "YXHSqPQIRm6iJgdzll5wPg");
     event.stopPropagation();
   });
 
   // Tap: hotspot (F01登录_Home@注册用户) -> StartUp
-  $("#RdmrXDkNQ02wQZNtWSXI3gzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+  $("#RdmrXDkNQ02wQZNtWSXI3gokD6j2plTQuyxcQs3oWnhQ").on("tapone", function(event) {
     screenTransition.instant("YMZFY2QgQJWYh8H2lqPXPA", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
   // Tap: LEFT LOGO (F01登录_Home@注册用户) -> Previous screen
-  $("#RdmrXDkNQ02wQZNtWSXI3gnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+  $("#RdmrXDkNQ02wQZNtWSXI3gZhb2SJuwR7SkqyVpZT14xQ").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
@@ -1340,6 +1340,36 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-G02-消息中心@data) -> StartUp
+  $("#dGM39eHBThO60cbWQamhxQzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("YXHSqPQIRm6iJgdzll5wPg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (P-G02-消息中心@data) -> Previous screen
+  $("#dGM39eHBThO60cbWQamhxQnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+    screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowB4-认证完成通知) -> P-G01-消息中心@空页
+  $("#apRxaMZ8SDa_vhIYfu_kcAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
+    screenTransition.slideLeft("ZdeNVi2kRr2N5IsGB2BRzg", "k4Kwa8tdS6qqVrrG5MlAhQ");
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (FlowB4-认证完成通知) -> StartUp
+  $("#apRxaMZ8SDa_vhIYfu_kcAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
+    screenTransition.instant("ZdeNVi2kRr2N5IsGB2BRzg", "cTlpmuyERFazkGMXoSNzlg");
+    event.stopPropagation();
+  });
+
+  // Tap: LEFT LOGO (FlowB4-认证完成通知) -> Previous screen
+  $("#apRxaMZ8SDa_vhIYfu_kcAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
+    screenTransition.back($(this));
+    event.stopPropagation();
+  });
+
   // Tap: hotspot (F02订单@注册用户) -> P-G01-消息中心@空页
   $("#zlk4iiuBTeuiXpK9j8MZ_gs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
     screenTransition.slideLeft("Q4KZTjttTG-4woeMbtAG8w", "k4Kwa8tdS6qqVrrG5MlAhQ");
@@ -1366,24 +1396,6 @@ $(function() {
 
   // Tap: LEFT LOGO (F02订单@注册用户) -> Previous screen
   $("#zlk4iiuBTeuiXpK9j8MZ_gnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
-    screenTransition.back($(this));
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (FlowB4-认证完成通知) -> P-G01-消息中心@空页
-  $("#apRxaMZ8SDa_vhIYfu_kcAs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
-    screenTransition.slideLeft("ZdeNVi2kRr2N5IsGB2BRzg", "k4Kwa8tdS6qqVrrG5MlAhQ");
-    event.stopPropagation();
-  });
-
-  // Tap: hotspot (FlowB4-认证完成通知) -> StartUp
-  $("#apRxaMZ8SDa_vhIYfu_kcAzXnNyuqNQZe7TIyq4ronEw").on("tapone", function(event) {
-    screenTransition.instant("ZdeNVi2kRr2N5IsGB2BRzg", "cTlpmuyERFazkGMXoSNzlg");
-    event.stopPropagation();
-  });
-
-  // Tap: LEFT LOGO (FlowB4-认证完成通知) -> Previous screen
-  $("#apRxaMZ8SDa_vhIYfu_kcAnE-nY6HoTFOtieNHZoD_ng").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
   });
