@@ -782,6 +782,12 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (FlowF2-手机认证结果) -> FlowB3-step3-认证流程
+  $("#c5yQElEJRmW491B12tbORw").on("tapone-iscroll", function(event) {
+    screenTransition.instant("QjEVy58jQdSyJlcqPvgQEg", "stCPGpyQSNimNCkRiLCuFw");
+    event.stopPropagation();
+  });
+
   // Tap: hotspot (E03我的账户@注册用户) -> P-G01-消息中心@空页
   $("#b1djAU2_Tiy23jv8ShcYAgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
     screenTransition.slideLeft("VN8W6Zy7QMuTulMDVIj7Fg", "k4Kwa8tdS6qqVrrG5MlAhQ");
