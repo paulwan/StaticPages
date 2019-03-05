@@ -759,26 +759,20 @@ $(function() {
   });
 
   // Tap: hotspot (FlowF2-手机认证结果) -> StartUp
-  $("#a9s9kCMjvQJ-nx_yHKTKe6w-yiDxJbQRm2NNy9Dl_Ts1Q").on("tapone", function(event) {
+  $("#a9s9kCMjvQJ-nx_yHKTKe6w82LNgu7BSbS8Pqlbyds4tg").on("tapone", function(event) {
     screenTransition.instant("QjEVy58jQdSyJlcqPvgQEg", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
-  // Tap: NavBar (FlowF2-手机认证结果) -> FlowB3-step3-认证流程
-  $("#a9s9kCMjvQJ-nx_yHKTKe6w").on("tapone", function(event) {
-    screenTransition.instant("QjEVy58jQdSyJlcqPvgQEg", "stCPGpyQSNimNCkRiLCuFw");
-    event.stopPropagation();
-  });
-
-  // Tap: LEFT LOGO (FlowF2-手机认证结果) -> Previous screen
-  $("#a9s9kCMjvQJ-nx_yHKTKe6wdMifj8wRTOaTbv6SrzYmhA").on("tapone", function(event) {
-    screenTransition.back($(this));
+  // Tap: hotspot (FlowF2-手机认证结果) -> FlowB3-step3-认证流程
+  $("#a9s9kCMjvQJ-nx_yHKTKe6wJV3pU-YBRua15X_RYq_3TQ").on("tapone", function(event) {
+    screenTransition.slideRight("QjEVy58jQdSyJlcqPvgQEg", "stCPGpyQSNimNCkRiLCuFw");
     event.stopPropagation();
   });
 
   // Tap: hotspot (FlowF2-手机认证结果) -> FlowB3-step3-认证流程
   $("#c5yQElEJRmW491B12tbORw").on("tapone-iscroll", function(event) {
-    screenTransition.instant("QjEVy58jQdSyJlcqPvgQEg", "stCPGpyQSNimNCkRiLCuFw");
+    screenTransition.slideRight("QjEVy58jQdSyJlcqPvgQEg", "stCPGpyQSNimNCkRiLCuFw");
     event.stopPropagation();
   });
 
