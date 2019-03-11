@@ -17,9 +17,15 @@ $(function() {
   var animationManager = AnimationManager.getInstance();
   var interactionManager = InteractionManager.getInstance();
 
-  // Tap: 历史摘要 (index) -> index
+  // Tap: 昨日摘要 (index-2) -> index
+  $("#wmdihkv5QwKt7QGVnmjHbw").on("tapone", function(event) {
+    screenTransition.instant("Nh1E-hV3Tau8oESIBfo4Pw", "a-dFCYgkFTvm4SVUPcttZaA");
+    event.stopPropagation();
+  });
+
+  // Tap: 历史摘要 (index) -> index-2
   $("#a8mDxT6vWQwqcK-OFQ3WEYA").on("tapone", function(event) {
-    screenTransition.slideLeft("a-dFCYgkFTvm4SVUPcttZaA", "a-dFCYgkFTvm4SVUPcttZaA");
+    screenTransition.instant("a-dFCYgkFTvm4SVUPcttZaA", "Nh1E-hV3Tau8oESIBfo4Pw");
     event.stopPropagation();
   });
 
