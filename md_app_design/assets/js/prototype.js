@@ -1374,6 +1374,52 @@ $(function() {
     event.stopPropagation();
   });
 
+  // Tap: hotspot (P-D02-还款信息@data) -> Overlay: P-D02-还款信息-zfb
+  $("#a7xbwXmXFSAWlI4hXS8Xw5g").on("tapone-iscroll", function(event) {
+    if (!interactionManager.getStateIndex("a1Ta66ckR5SX134d24FkDwk_aDLKBuQEKWEqQJ2GgUEA")) {
+      overlayTransition.fadeIn("a1Ta66ckR5SX134d24FkDwk_aDLKBuQEKWEqQJ2GgUEA", 4, 1, 0.25, function() {
+        interactionManager.setStateIndex("a1Ta66ckR5SX134d24FkDwk_aDLKBuQEKWEqQJ2GgUEA", 1);
+      });
+    }
+    event.stopPropagation();
+  });
+  // Tap: Overlay background (P-D02-还款信息-zfb) -> Overlay: P-D02-还款信息-zfb
+  $("#a1Ta66ckR5SX134d24FkDwk_aDLKBuQEKWEqQJ2GgUEA-overlay-background").on("tapone-iscroll", function(event) {
+    overlayTransition.close("a1Ta66ckR5SX134d24FkDwk_aDLKBuQEKWEqQJ2GgUEA", function(overlayElemIdOrIds) {
+      interactionManager.setStateIndex(overlayElemIdOrIds, 0);
+    });
+    event.stopPropagation();
+  });
+
+  // Tap: hotspot (P-D02-还款信息@data) -> Overlay: P-D02-还款信息-wx
+  $("#FJIDkyqGQruSJFF5M54CbA").on("tapone-iscroll", function(event) {
+    if (!interactionManager.getStateIndex("a1Ta66ckR5SX134d24FkDwnO4NnXIuS3iL96bxVwcBGA")) {
+      overlayTransition.fadeIn("a1Ta66ckR5SX134d24FkDwnO4NnXIuS3iL96bxVwcBGA", 4, 1, 0.25, function() {
+        interactionManager.setStateIndex("a1Ta66ckR5SX134d24FkDwnO4NnXIuS3iL96bxVwcBGA", 1);
+      });
+    }
+    event.stopPropagation();
+  });
+  // Tap: Overlay background (P-D02-还款信息-wx) -> Overlay: P-D02-还款信息-wx
+  $("#a1Ta66ckR5SX134d24FkDwnO4NnXIuS3iL96bxVwcBGA-overlay-background").on("tapone-iscroll", function(event) {
+    overlayTransition.close("a1Ta66ckR5SX134d24FkDwnO4NnXIuS3iL96bxVwcBGA", function(overlayElemIdOrIds) {
+      interactionManager.setStateIndex(overlayElemIdOrIds, 0);
+    });
+    event.stopPropagation();
+  });
+
+  // Tap: close (P-D02-还款信息@data) -> P-D02-还款信息@data
+  $("#a1Ta66ckR5SX134d24FkDwc4VmNa6kTxOGDh5b4lLPLQ").on("tapone", function(event) {
+    screenTransition.instant("a1Ta66ckR5SX134d24FkDw", "a1Ta66ckR5SX134d24FkDw");
+    event.stopPropagation();
+  });
+
+  // Tap: close (P-D02-还款信息@data) -> P-D02-还款信息@data
+  $("#a1Ta66ckR5SX134d24FkDw7S055mk8TGOybLtTx--fzg").on("tapone", function(event) {
+    screenTransition.instant("a1Ta66ckR5SX134d24FkDw", "a1Ta66ckR5SX134d24FkDw");
+    event.stopPropagation();
+  });
+
   // Tap: hotspot (A01登录_Home@新用户-none) -> P-G01-消息中心@空页
   $("#EOgzIqdCRjOWSH10QBZ6vgs1k61M1GQU6Jm5WgdU0Pzw").on("tapone", function(event) {
     screenTransition.slideLeft("F2LTMLcFT5aVOa41tiRfjQ", "k4Kwa8tdS6qqVrrG5MlAhQ");
