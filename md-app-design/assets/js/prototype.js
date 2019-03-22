@@ -368,7 +368,7 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: TAB 1 (E02订单@注册用户) -> E01登录@注册+认证用户-审核通过
+  // Tap: TAB 1 (E02订单@注册用户) -> E01登录@审核未通过
   $("#nM1ksJLHTMieHs5SgeNLPADtfjovmEQZWuZgGEiG3qog").on("tapone", function(event) {
     screenTransition.instant("hO_EOdcETrO9bnKkkdKLrw", "dgUyIBSLQlWffV2FS8qNOg");
     event.stopPropagation();
@@ -794,7 +794,7 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: TAB 1 (E03我的账户@注册用户) -> E01登录@注册+认证用户-审核通过
+  // Tap: TAB 1 (E03我的账户@注册用户) -> E01登录@审核未通过
   $("#a9DbfYjW5QWSVJ88m8JMyPgDtfjovmEQZWuZgGEiG3qog").on("tapone", function(event) {
     screenTransition.instant("VN8W6Zy7QMuTulMDVIj7Fg", "dgUyIBSLQlWffV2FS8qNOg");
     event.stopPropagation();
@@ -1290,31 +1290,31 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: hotspot (E01登录@注册+认证用户-审核通过) -> P-G02-消息中心@data
+  // Tap: hotspot (E01登录@审核未通过) -> P-G02-消息中心@data
   $("#vElv6qqVSTyS0xlSBHdXPQRjEVYkNJS0SP0KjS35VYdA").on("tapone", function(event) {
     screenTransition.slideLeft("dgUyIBSLQlWffV2FS8qNOg", "YXHSqPQIRm6iJgdzll5wPg");
     event.stopPropagation();
   });
 
-  // Tap: hotspot (E01登录@注册+认证用户-审核通过) -> StartUp
+  // Tap: hotspot (E01登录@审核未通过) -> StartUp
   $("#vElv6qqVSTyS0xlSBHdXPQokD6j2plTQuyxcQs3oWnhQ").on("tapone", function(event) {
     screenTransition.instant("dgUyIBSLQlWffV2FS8qNOg", "cTlpmuyERFazkGMXoSNzlg");
     event.stopPropagation();
   });
 
-  // Tap: TAB 3 (E01登录@注册+认证用户-审核通过) -> E03我的账户@注册用户
+  // Tap: TAB 3 (E01登录@审核未通过) -> E03我的账户@注册用户
   $("#vocoapRQRz-6uDWeh6J4qQKHbr9Tg6SK-Ras1xQa4YLA").on("tapone", function(event) {
     screenTransition.instant("dgUyIBSLQlWffV2FS8qNOg", "VN8W6Zy7QMuTulMDVIj7Fg");
     event.stopPropagation();
   });
 
-  // Tap: TAB 2 (E01登录@注册+认证用户-审核通过) -> E02订单@注册用户
+  // Tap: TAB 2 (E01登录@审核未通过) -> E02订单@注册用户
   $("#vocoapRQRz-6uDWeh6J4qQXQn4Q35SSC2H5bO1FqKZ2g").on("tapone", function(event) {
     screenTransition.instant("dgUyIBSLQlWffV2FS8qNOg", "hO_EOdcETrO9bnKkkdKLrw");
     event.stopPropagation();
   });
 
-  // Tap: LEFT LOGO (E01登录@注册+认证用户-审核通过) -> Previous screen
+  // Tap: LEFT LOGO (E01登录@审核未通过) -> Previous screen
   $("#vElv6qqVSTyS0xlSBHdXPQZhb2SJuwR7SkqyVpZT14xQ").on("tapone", function(event) {
     screenTransition.back($(this));
     event.stopPropagation();
@@ -1556,7 +1556,7 @@ $(function() {
     event.stopPropagation();
   });
 
-  // Tap: Btn.b Default/1 Normal isSuccess (StartUp) -> E01登录@注册+认证用户-审核通过
+  // Tap: Btn.b Default/1 Normal isSuccess (StartUp) -> E01登录@审核未通过
   $("#kVgtM-jSRVKFVAHtD8tOTw").on("tapone", function(event) {
     screenTransition.slideLeft("cTlpmuyERFazkGMXoSNzlg", "dgUyIBSLQlWffV2FS8qNOg");
     event.stopPropagation();
